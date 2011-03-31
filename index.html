@@ -5,4 +5,9 @@ title: "Blog"
 
 <div class="content">
 
-    {% include post_nav.html %}
+
+	{% for posts in site.posts limit 15 %}
+		{% include post_description.html %}
+	{% endfor %}
+</div>
+
