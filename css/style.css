@@ -182,15 +182,20 @@ body {
 header {
 	position:fixed;
 	width:600px;
-	top:10px;
+	top:100%;
 	left:50%;
+	z-index:-2;
 	margin-left:-300px;
 }
 
+header:hover {
+	z-index:4;
+}
+
 #main {
-	width:480px;
+	width:70%;
 	position:relative;
-	margin-left:-240px;
+	margin-left:-30%;
 	left:50%;
 }
 
@@ -226,6 +231,10 @@ em {
 }
 
 nav {
+	position:absolute;
+	width:20%;
+	left:5%;
+	top:50px;
 }
 
 
@@ -233,9 +242,6 @@ nav ul li {
     list-style-type:none;
 }
 
-article nav {
-
-}
 
 article {
 	position:relative;
