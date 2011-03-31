@@ -180,8 +180,9 @@ body {
 
 #main {
 	width:480px;
-	margin-left:-250px;
-	left:40%;
+	position:relative;
+	margin-left:-240px;
+	left:50%;
 }
 
 	
@@ -203,7 +204,7 @@ p {
 	line-height:1.4em;
 	color:#777;
 	margin:1em 0;
-	width:420px;
+	width:470px;
 }
 
 
