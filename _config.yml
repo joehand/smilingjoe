@@ -1,6 +1,12 @@
 markdown: rdiscount
 pygments: true
 permalink: /:month/:year/:title
+
+base_url: http://blog.joehand.org
+#base_url: /
+description: "A blog from Joe Hand."
+root_desc: "JoeHand.org"
+
 auto: true
 rdiscount:
   extensions: [smart]

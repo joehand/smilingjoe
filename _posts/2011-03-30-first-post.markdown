@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A first step towards the future.
+description: The very first post of my new blog.
 
 ---
 

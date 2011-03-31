@@ -14,7 +14,7 @@
 	    The Blog of Joe Hand
 	  {% endif %}
 	</title>
-  <meta name="description" content="">
+  <meta name="description" content="{{ page.description }}">
   <meta name="author" content="Joe Hand">
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -40,11 +40,8 @@
     <div id="main" role="main">
 	<nav>
 	  <ul>
-	  {% for page in site %}
-		<li>
-			<a href="{{ page.url }}">{{ page.title }}</a>
-		</li>
-	  {% endfor %}
+		<li><a href="/">Blog.JoeHand.Org</a></li>
+		<li><a href="{{ page.url }}" class="current">{{ page.title }}</a></li>
 	  </ul>
 	 </nav>
 
