@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond $1 !^joehand.github.com/publish/
+RewriteRule ^(.*)$ joehand.github.com/$1 [L]
