@@ -38,6 +38,15 @@
     </header>
 
     <div id="main" role="main">
+	<nav>
+	  <ul>
+	  {% for pages in site %}
+		<li>
+			<a href="{{ page.url }}">{{ page.title }}</a>
+		</li>
+	  {% endfor %}
+	  </ul>
+	 </nav>
 
 	{{ content }}
 
