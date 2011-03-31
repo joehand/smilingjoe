@@ -182,8 +182,8 @@ body {
 #main {
 	width:70%;
 	position:relative;
-	margin-left:-30%;
 	left:50%;
+	margin-left:-35%
 }
 /*general size and other styles*/
 	
@@ -222,14 +222,21 @@ em {
 header h1 { font-family: 'Buda', arial, serif; }
 
 header#home {
-	position:relative;
-	width:600px;
-	left:5%;
-	margin:.5em 0;
-	font-size:2em;
-	border-bottom:3px solid #777;
+	position:absolute;
+	width:100px;
+	left:10%;
+	top:-50px;
+	font-size:2.2em;
 }
 
+#home h1 .turn {
+	left:-50px;
+	top:95px;
+	position:absolute;
+	-webkit-transform: rotate(270deg); 
+	-moz-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
 #home h1 .small {
 	font-size:.4em;
 }
@@ -241,10 +248,18 @@ nav {
 	width:470px;
 }
 
+nav.description {
+	margin-top:50px;
+}
+
 nav .date{
 	float:right;
 	font-family: 'Buda', arial, serif;
 	font-size:2em;
+}
+
+nav.description li {
+	border-top:3px solid #777;
 }
 
 nav p.description {
@@ -252,7 +267,9 @@ nav p.description {
 	margin:.2em;
 }
 
-nav li.active {background-color:#333;color:#fff;}
+nav.short li {
+	border-top:3px solid #777;
+}
 
 
 nav ul li {
@@ -266,6 +283,18 @@ article {
 	border-bottom:3px solid #777;
 	padding:20px 5px;
 	margin:2em .5em;
+}
+
+article header {
+	position:fixed;
+	background-color:#777;
+	color:#fff;
+	width:100%;
+	padding:10px;
+}
+
+article header h1 {
+float:left;
 }
 
 
