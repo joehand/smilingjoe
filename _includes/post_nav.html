@@ -2,7 +2,7 @@
 <nav>
   <ul>
     {% for post in site.posts%}
-    {% if page == post %}
+    {% if page.title == post.title %}
     <li class="active">
 		<a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%B - %Y" }}</span>
     </li>

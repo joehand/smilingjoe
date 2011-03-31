@@ -1,9 +1,9 @@
 
 <nav>
   <ul>
-  {% for post in site.posts %}
+  {% for page in site.posts %}
     <li>
-		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2><span class="date">{{ post.date | date: "%B - %Y" }}</span>
+		<h2><a href="{{ post.url }}">{{ page.title }}</a></h2><span class="date">{{ page.date | date: "%B - %Y" }}</span>
 		<p>{{ page.description}}</p>
     </li>
   {% endfor %}
