@@ -2,10 +2,7 @@ markdown: rdiscount
 pygments: true
 permalink: /:month/:year/:title
 
-base_url: blog.joehand.org
-#base_url: /
 description: "A blog from Joe Hand."
-
 
 auto: true
 rdiscount:
