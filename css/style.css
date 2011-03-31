@@ -130,8 +130,8 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink! */
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #607890; color:#fff; text-shadow: none; }
+::selection { background:#607890; color:#fff; text-shadow: none; }
 
 /* j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: #FF5E99; }
@@ -179,25 +179,13 @@ body {
 }
 
 
-header {
-	position:relative;
-	width:600px;
-	top:100%;
-	left:50%;
-	margin-left:-300px;
-}
-
-header:hover {
-	z-index:4;
-}
-
 #main {
 	width:70%;
 	position:relative;
 	margin-left:-30%;
 	left:50%;
 }
-
+/*general size and other styles*/
 	
 h1 {
     font-size:1.7em;
@@ -229,11 +217,42 @@ em {
 	font-style:italic;
 }
 
-nav {
+/*headers and nav*/
 
+header h1 { font-family: 'Buda', arial, serif; }
+
+header#home {
+	position:relative;
+	width:600px;
+	left:5%;
+	margin:.5em 0;
+	font-size:2em;
+	border-bottom:3px solid #777;
 }
 
-nav li.active {display:none}
+#home h1 .small {
+	font-size:.4em;
+}
+
+
+nav {
+	padding:10px;
+	margin:.2em;
+	width:470px;
+}
+
+nav .date{
+	float:right;
+	font-family: 'Buda', arial, serif;
+	font-size:2em;
+}
+
+nav p.description {
+	font-size:1.2em;
+	margin:.2em;
+}
+
+nav li.active {background-color:#333;color:#fff;}
 
 
 nav ul li {
@@ -249,10 +268,6 @@ article {
 	margin:2em .5em;
 }
 
-
-.date {
-    padding-right:15px;
-}
 
 
 /**
