@@ -178,6 +178,15 @@ body {
    margin:.5em;
 }
 
+
+header {
+	position:fixed;
+	width:600px;
+	top:10px;
+	left:50%;
+	margin-left:-300px;
+}
+
 #main {
 	width:480px;
 	position:relative;
@@ -216,11 +225,22 @@ em {
 	font-style:italic;
 }
 
+nav {
+	width:200px;
+}
+
+article nav {
+	position:fixed;
+	left:-200px;
+	top:50px;
+}
 
 article {
+	position:relative;
 	border-top:3px solid #777;
 	border-bottom:3px solid #777;
 	padding:20px 5px;
+	margin:2em .5em;
 }
 
 ul li {

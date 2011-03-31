@@ -3,9 +3,17 @@ layout: main
 ---
 
 <div class="content">
-  <article>
-    {% include post_header.html %}
+
+    {% include post_nav.html %}
+	
+  <article>	 
+    <div class="authoring">
+	  {{ page.date | date: "%B %e, %Y" }}
+	  <p>{{ page.description }}</p>
+	</div>
+
     {{ content }}
+
   </article>
 
 </div>
