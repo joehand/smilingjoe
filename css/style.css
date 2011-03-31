@@ -165,16 +165,53 @@ a:hover { color: #036; }
 /**
  * Primary styles
  *
- * Author: 
+ * Author: Joe Hand
  */
 
 
-.main {
-	margin:2em;
+#containter {
+   margin:.5em;
+}
+
+#main {
+   width:600px;
+   left:50%;
+   margin-left:300px;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position:relative;
+	width:100%;
+}
+	
+h1 {
+    font-size:1.3em;
+}
+
+h3 {
+	font-size:1.1em;
+}
+
+p {
+margin:0 20%;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:1.1em;
+line-height:1.4em;
+color:#777;
+margin-bottom:15px;
+text-align:Center;
+width:400px;
 }
 
 
+b {
+font-weight:bold;
+}
 
+em {
+font-style:italic;
+}
 
 
 

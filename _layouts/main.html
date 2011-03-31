@@ -7,7 +7,13 @@
 <head>
   <meta charset="utf-8">
 
-	<title>{{ page.title }}</title>
+	<title>
+	  {% if page.title %}
+	    {{ page.title }} | Blog.JoeHand.Org
+	  {% else %}
+	    The Blog of Joe Hand
+	  {% endif %}
+	</title>
   <meta name="description" content="">
   <meta name="author" content="Joe Hand">
 
@@ -30,6 +36,7 @@
 	</h1>
 	<h3>{{ page.title }}</h3>
     </header>
+
     <div id="main" role="main">
 
 	{{ content }}
