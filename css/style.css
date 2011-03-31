@@ -229,12 +229,11 @@ em {
 	font-style:italic;
 }
 
-article nav {
-	position:absolute;
-	width:300px;
-	right:-300px;
-	top:50px;
+nav {
+
 }
+
+nav li.active {display:none}
 
 
 nav ul li {
