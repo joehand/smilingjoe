@@ -285,17 +285,6 @@ article {
 	margin:2em .5em;
 }
 
-article header {
-	position:fixed;
-	background-color:#777;
-	color:#fff;
-	width:100%;
-	padding:10px;
-}
-
-article header h1 {
-float:left;
-}
 
 
 
