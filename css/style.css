@@ -168,52 +168,67 @@ a:hover { color: #036; }
  * Author: Joe Hand
  */
 
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position:relative;
+	width:100%;
+}
 
 #containter {
    margin:.5em;
 }
 
 #main {
-   width:600px;
-   left:50%;
-   margin-left:300px;
+	width:480px;
+	margin-left:-250px;
+	left:40%;
 }
 
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	position:relative;
-	width:100%;
-}
 	
 h1 {
-    font-size:1.5em;
+    font-size:1.7em;
+}
+
+h2 {
+	font-size:1.5em;
 }
 
 h3 {
-	font-size:1.2em;
+	font-size:1.3em;
 }
 
 p {
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size:1.1em;
-line-height:1.4em;
-color:#777;
-margin:1em 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.1em;
+	line-height:1.4em;
+	color:#777;
+	margin:1em 0;
+	width:420px;
 }
 
 
 b {
-font-weight:bold;
+	font-weight:bold;
 }
 
 em {
-font-style:italic;
+	font-style:italic;
 }
 
 
+article {
+	border-top:3px solid #777;
+	border-bottom:3px solid #777;
+	padding:20px 5px;
+}
 
+ul li {
+    list-style-type:none;
+}
 
-
+.date {
+    padding-right:15px;
+}
 
 
 /**

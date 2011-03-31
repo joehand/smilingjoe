@@ -8,10 +8,10 @@
   <meta charset="utf-8">
 
 	<title>
-	  {% if page.title %}
-	    {{ page.title }} | Blog.JoeHand.Org
-	  {% else %}
+	  {% if page.title == 'Blog' %}
 	    The Blog of Joe Hand
+	  {% else %}
+	    {{ page.title }} | Blog.JoeHand.Org
 	  {% endif %}
 	</title>
   <meta name="description" content="{{ page.description }}">
@@ -32,18 +32,12 @@
 
   <div id="container">
     <header><h1>
-	<a href="http://joehand.org">joehand.org</a>
+	<a href="http://blog.joehand.org">BLOG.</a><a class="small" href="http://joehand.org">joehand.org</a>
 	</h1>
 	<h3>{{ page.title }}</h3>
     </header>
 
     <div id="main" role="main">
-	<nav>
-	  <ul>
-		<li><a href="/">Blog.JoeHand.Org</a></li>
-		<li><a href="{{ page.url }}" class="current">{{ page.title }}</a></li>
-	  </ul>
-	 </nav>
 
 	{{ content }}
 
