@@ -180,11 +180,10 @@ body {
 
 
 header {
-	position:fixed;
+	position:relative;
 	width:600px;
 	top:100%;
 	left:50%;
-	z-index:-2;
 	margin-left:-300px;
 }
 
