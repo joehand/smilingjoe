@@ -6,7 +6,7 @@ description: The very first post of my new blog.
 
 ---
 
-###Welcome
+#Welcome
 
 Welcome to the blog of Joe Hand. You have managed to find the very first post.
 

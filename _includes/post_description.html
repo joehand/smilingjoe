@@ -1,10 +1,10 @@
 
-<nav>
+<nav class="description">
   <ul>
   {% for page in site.posts %}
     <li>
-		<h2><a href="{{ post.url }}">{{ page.title }}</a></h2><span class="date">{{ page.date | date: "%B - %Y" }}</span>
-		<p>{{ page.description}}</p>
+		<h3><a href="{{ page.url }}">{{ page.title }}</a></h3><span class="date">{{ page.date | date: "%B - %Y" }}</span>
+		<p class="description">{{ page.description}}</p>
     </li>
   {% endfor %}
   </ul>
