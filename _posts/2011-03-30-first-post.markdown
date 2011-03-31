@@ -6,7 +6,7 @@ description: The very first post of my new blog.
 
 ---
 
-#Welcome
+###Welcome
 
 Welcome to the blog of Joe Hand. You have managed to find the very first post.
 
@@ -20,7 +20,7 @@ I try to understand more about things like sustainable digital publishing models
 
 As of this post, I am in the process of creating a fresh website and blog. All of the base html and css came from <a href="http://html5boilerplate.com/">html5boilerplate</a>. I am using Jekyll and GitHub for the blog. 
 
-#The Power of Jekyll and GitHub
+###The Power of Jekyll and GitHub
 
 I set the blog up using Jekyll and GitHub. The whole process was pretty painless. The short run down goes like this:
 <ul>
@@ -34,7 +34,7 @@ I set the blog up using Jekyll and GitHub. The whole process was pretty painless
 Straighforward documentation for <a href="http://github.com/mojombo/jekyll">Jekyll</a> alongside tons of examples makes it easy. <a href="http://ksornberger.com/blog/blogging-with-jekyll-and-github/">This tutorial</a> explains the details. See this blog at <a href="https://github.com/joehand/joehand.github.com">github</a>.
 
 
-#Html5BoilerPlate
+###Html5BoilerPlate
 
 The Html5BoilerPlate provides an easy to use foundation for a new site. I used parts of it for my blog and homepage. They have great documentation and make it very easy to customize, check it out. They also include a sweet build script.
 

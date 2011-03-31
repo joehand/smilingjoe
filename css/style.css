@@ -226,13 +226,15 @@ em {
 }
 
 nav {
-	width:200px;
+}
+
+
+nav ul li {
+    list-style-type:none;
 }
 
 article nav {
-	position:fixed;
-	left:-200px;
-	top:50px;
+
 }
 
 article {
@@ -243,9 +245,6 @@ article {
 	margin:2em .5em;
 }
 
-ul li {
-    list-style-type:none;
-}
 
 .date {
     padding-right:15px;
