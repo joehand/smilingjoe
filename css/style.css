@@ -248,6 +248,10 @@ nav {
 	width:470px;
 }
 
+article nav.description {
+	border:none;
+}
+
 nav.description {
 	margin-top:50px;
 }

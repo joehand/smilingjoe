@@ -2,6 +2,12 @@ markdown: rdiscount
 pygments: true
 permalink: /:month/:year/:title
 
+home_url: http://joehand.org
+blog_url: http://blog.joehand.org
+#home_url: /
+#blog_url: /
+
+root_desc: "JoeHand.org"
 description: "A blog from Joe Hand."
 
 auto: true
