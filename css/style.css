@@ -157,15 +157,17 @@ body, select, input, textarea {
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-a, a:active, a:visited { 
-	color: #607890; 
-	-webkit-transition:all .5s ease-in-out;  
-   -moz-transition:all .5s ease-in-out;  
-   -o-transition:all .5s ease-in-out;  
-   transition:all .5s ease-in-out;  
+a, a:active, a:visited {
+color: #607890;
+ -webkit-transition: color 1s linear;
+	  -moz-transition:: color 1s linear;
+ -o-transition: color 1s linear;/* opera */
+	  transition:: color 1s linear;
 }
 
-a:hover { color: #036; }
+a:hover {
+ color: #c00;
+}
 
 
 /**
