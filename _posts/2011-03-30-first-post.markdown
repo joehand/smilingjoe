@@ -1,8 +1,8 @@
 ---
 layout: post
-title: A first step towards the future.
+title: A step towards the future.
 
-description: The very first post of my new blog.
+description: The first post of my new blog. After an intro, the post explains how I quickly set up the blog with Jekyll and Github.
 
 ---
 

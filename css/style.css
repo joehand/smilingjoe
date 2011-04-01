@@ -151,14 +151,20 @@ button {  width: auto; overflow: visible; }
 body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444;
-  /* Set your base font here, to apply evenly */
-  /* font-family: Georgia, serif;  */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-a, a:active, a:visited { color: #607890; }
+a, a:active, a:visited { 
+	color: #607890; 
+	-webkit-transition:all .5s ease-in-out;  
+   -moz-transition:all .5s ease-in-out;  
+   -o-transition:all .5s ease-in-out;  
+   transition:all .5s ease-in-out;  
+}
+
 a:hover { color: #036; }
 
 
@@ -169,7 +175,6 @@ a:hover { color: #036; }
  */
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	position:relative;
 	width:100%;
 }
@@ -180,6 +185,7 @@ body {
 
 
 #main {
+	margin-top:2.5em;
 	width:70%;
 	position:relative;
 	left:50%;
@@ -217,6 +223,10 @@ em {
 	font-style:italic;
 }
 
+.date{
+	font-size:2em;
+	font-family: 'Buda', arial, serif;
+}
 /*headers and nav*/
 
 header h1 { font-family: 'Buda', arial, serif; }
@@ -224,7 +234,7 @@ header h1 { font-family: 'Buda', arial, serif; }
 header#home {
 	position:absolute;
 	width:100px;
-	left:10%;
+	left:-35px;
 	top:-50px;
 	font-size:2.2em;
 }
@@ -243,53 +253,88 @@ header#home {
 
 
 nav {
+
+}
+
+nav.short  {
+	position:absolute;
+	right:-120px;
+	top:0px;
+	border:2px solid #777;
+	border-radius:8px;
+	width:90px;
 	padding:10px;
-	margin:.2em;
+}
+
+nav li.active {
+	opacity:.3;
+	-webkit-transition:all 1s ease-in-out;  
+   -moz-transition:all 1s ease-in-out;  
+   -o-transition:all 1s ease-in-out;  
+   transition:all 1s ease-in-out;  
+}
+
+nav.short:hover li.active {
+	opacity:1;
+} 
+
+
+nav.short .date {
+	font-size:1.3em;
+	width:200px;
+	display:block;
+}
+
+
+nav.description {
+	font-family: 'Buda', arial, serif;
+	padding:10px;
+	margin:.5em;
 	width:470px;
 }
 
-article nav.description {
-	border:none;
-}
-
-nav.description {
-	margin-top:50px;
-}
-
-nav .date{
+nav.description h3{
 	float:right;
-	font-family: 'Buda', arial, serif;
-	font-size:2em;
+	line-height:2em;
+	font-style:italic;
+	text-transform:uppercase;
 }
+
 
 nav.description li {
-	border-top:3px solid #777;
+	border-bottom:3px solid #777;
 }
 
 nav p.description {
+	display:block;
 	font-size:1.2em;
 	margin:.2em;
 }
 
-nav.short li {
-	border-top:3px solid #777;
-}
-
-
 nav ul li {
     list-style-type:none;
 }
-
+/*all the blog article stuff*/
 
 article {
 	position:relative;
 	border-top:3px solid #777;
 	border-bottom:3px solid #777;
-	padding:20px 5px;
+	padding:10px 5px;
 	margin:2em .5em;
+	width:600px;
 }
 
 
+section header {
+	margin:.5em .8em 1em 2em;
+	text-align:right;
+	width:575px;
+}
+
+section p{
+	width:575px;
+}
 
 
 /**

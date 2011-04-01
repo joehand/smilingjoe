@@ -2,13 +2,13 @@
 <nav class="short">
   <ul>
     {% for post in site.posts%}
-    {% if page.title == post.title %}
+    {% if post.url == page.url %}
     <li class="active">
-		<a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%B - %Y" }}</span>
+		<span class="date">{{ post.date | date: "%B %Y" }}</span><a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a>
     </li>
     {% else %}
 	  <li>
-		<a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%B - %Y" }}</span>
+		<span class="date">{{ post.date | date: "%B - %e" }}</span><a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endif %}
     {% endfor %}
