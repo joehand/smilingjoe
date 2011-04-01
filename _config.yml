@@ -2,8 +2,8 @@ markdown: rdiscount
 pygments: true
 permalink: /:month/:year/:title
 
-home_url: http://localhost/joe/
-blog_url: http://localhost/blog/
+home_url: http://joehand.org
+blog_url: http://blog.joehand.org
 #home_url: /
 #blog_url: /
 
