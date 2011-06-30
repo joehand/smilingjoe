@@ -5,7 +5,9 @@ title: Stop for a Free Chocolate Chip Cookie
 number: 1
 description: In my first experiment of kindness I gave away free chocolate chip cookies to people in Ladd's Circle during the evening commute. Previous evidence showed almost no one stopping. I demonstrated that with proper incentives cyclists are happy to stop. By addressing this issue with positive action I gained a greater understanding of the problems and potential solutions.
 ---
-_Note: This was my first experiment in kindness. Nothing was scientific in any way. My observations and discussion contain generalizations. I am a cyclists, so I may show biased on that side, but tried to understand all perspectives. This report is a work in progress._
+_Note: This was my first experiment in kindness. Nothing was scientific in any way. My observations and discussion contain generalizations. This report is a work in progress._
+
+_Disclaimer: I am a cyclist, but worked hard to understand all perspectives._
 
 ##Introduction
 Debate about the stop signs approaching Ladd's Circle is creating animosity between two parties. Neighbors are unhappy with danger of crossing the circle as a pedestrian. Cyclists have little reason to stop with the current set-up and many do not. As greater numbers of cyclists disregard the sign, the incentive for any one cyclist to stop decreases dramatically. The situation is not optimal for pedestrians or cyclists.
