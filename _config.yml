@@ -3,12 +3,12 @@ pygments: true
 permalink: /:month/:year/:title
 
 home_url: http://joehand.org
-blog_url: http://blog.joehand.org
+blog_url: http://smilingjoe.com
 #home_url: /
 #blog_url: /
 
-root_desc: "JoeHand.org"
-description: "A blog from Joe Hand."
+root_desc: "SmilingJoe.com"
+description: "Experiments in random acts of kindness."
 
 auto: true
 rdiscount:
