@@ -152,6 +152,7 @@ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 62.5%; /* -- Sets 1em to equal 10px -- */ 
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
@@ -182,38 +183,81 @@ body {
 }
 
 #container {
-   margin:.5em;
-}
-
-
-#main {
-	margin-top:2.5em;
-	width:500px;
+    margin:.5em 0;
+	width:600px;
 	position:relative;
-	left:50%;
-	margin-left:-250px;
+    margin-left:-300px;
+    left:50%;
 }
 /*general size and other styles*/
 	
 h1 {
-    font-size:1.7em;
+		margin: 15px 0;
+		 padding:.2em 0; 
+		font-size: 3em;
+		text-align:left !important;
+		display:block;
+		text-shadow: 1px 1px 1px #efefef; 
+		line-height:1em;
 }
 
-h2 {
-	font-size:1.5em;
-}
+h2 { 
+		  text-align: center; 
+		  padding:.8em 0 .2em 0; 
+		  font-family: Futura; 
+		  font-size: 2em;
+		  text-transform: uppercase; 
+		  color: #999; 
+		  letter-spacing: 1px; 
+		  text-shadow: 1px 1px 1px #efefef; 
+		  line-height:2em;
+		  border-bottom: 1px solid #cfcfcf; 
+ }
 
 h3 {
-	font-size:1.3em;
+		font-weight: normal; 
+		font-style: italic;
+		font-family: Futura; 
+		font-size: 2.2em; 
+		text-align:left !important;
+		margin: 10px 0;
+		padding:0 0 0 10px;
+		display:block;
+		text-transform: uppercase;
+		  letter-spacing: 1px; 
+		  text-shadow: 1px 1px 1px #efefef; 
+		line-height:2em;
+		border-left: 3px solid #cfcfcf;
+}
+
+h4 {
+		font-family: "Arial Narrow", Arial, Verdana, sans-serif;
+		text-align:left !important;
+		font-size: 1.5em; 
+		margin: 10px 0;
+		padding:0 0 0 10px;
+		display:block;
+		text-transform: uppercase;
+		  letter-spacing: 1px; 
+		  text-shadow: 1px 1px 1px #efefef; 
+		line-height:2em;
+		border-left: 3px solid #cfcfcf;
+}
+
+h5 {
+    font-size:1.4em;
+    margin:5px 0;
+}
+h6 {
+    font-size:1.2em;
 }
 
 p {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:1.1em;
+	font-size:1.4em;
 	line-height:1.4em;
-	color:#777;
 	margin:1em 0;
 	width:470px;
+    font-family: Georgia;
 }
 
 
@@ -225,43 +269,45 @@ em {
 	font-style:italic;
 }
 
+li {
+		font-size:1.3em;
+}
+
 .date{
 	font-size:2em;
 	font-family: 'Buda', arial, serif;
 }
 /*headers and nav*/
 
-header h1 { font-family: 'Buda', arial, serif; }
-
-header#home {
-	position:absolute;
-	width:100px;
-	left:-35px;
-	top:-50px;
-	font-size:2.2em;
+header {
+    margin-left:15px;
+    width:500px;
 }
 
-#home h1 .turn {
-	left:-50px;
-	top:95px;
-	position:absolute;
-	-webkit-transform: rotate(270deg); 
-	-moz-transform: rotate(270deg);
-	transform: rotate(270deg);
+header h1 { 
+    font-family: 'Buda', arial, serif; 
+	font-size:3.5em;
+    margin-bottom:0px;
+    }
+header a {
+    text-decoration:none;
 }
-#home h1 .small {
-	font-size:.4em;
+
+header h4 {
+    margin-top:0px;
 }
 
 
 nav {
+	position:relative;
 
 }
 
 nav.short  {
+    display:none;
 	position:absolute;
-	right:-220px;
-	top:0px;
+	right:10%;
+	top:5em;
 	border:2px solid #777;
 	border-radius:8px;
 	width:90px;
@@ -287,30 +333,40 @@ nav.short .date {
 	display:block;
 }
 
+nav.description .date { 
+    
+    margin-left:80%;
+}
+
 
 nav.description {
-	font-family: 'Buda', arial, serif;
 	padding:10px;
-	margin:.5em;
-	width:470px;
+	margin:4.5em .5em .5em;
+	width:580px;
 }
 
 nav.description h3{
-	float:right;
-	line-height:2em;
-	font-style:italic;
-	text-transform:uppercase;
+    font-weight:bold;
+    border:none;
+    margin-bottom:0px;
 }
+nav.description h4{
+    font-weight:bold;
+    margin-top:0px;
+    border-left:none;
+    }
 
 
 nav.description li {
 	border-bottom:3px solid #777;
+    display:block;
 }
 
 nav p.description {
 	display:block;
 	font-size:1.2em;
-	margin:.2em;
+    padding:.5em 1em;
+    width:95%;
 }
 
 nav ul li {
@@ -322,20 +378,30 @@ article {
 	position:relative;
 	border-top:3px solid #777;
 	border-bottom:3px solid #777;
-	padding:10px 5px;
+	padding:10px 20px 10px 0px;
 	margin:2em .5em;
-	width:600px;
+	width:550px;
 }
 
+article h6,
+article h5,
+article h2 {
+    margin-left:15px;
+}
 
 section header {
-	margin:.5em .8em 1em 2em;
-	text-align:right;
+	margin:1em .8em 1em 1em;
 	width:575px;
 }
 
-section p{
-	width:575px;
+section p {
+	width:550px;
+    padding:0 1em;
+} 
+section ol,
+section ul {
+	width:475px;
+    padding:0 1.5em;
 }
 
 
