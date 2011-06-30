@@ -30,7 +30,7 @@ __Two key points need to be a part of any solution:__
 In my first experiment of kindness I decided to hand out chocolate chip cookies to cyclists. In order to have a greater impact, I found a controversial situation and attempted to address it through smiles.
 
 ####Background on Ladd's Circle
-Walkers and cyclists both enjoy the beauty of Ladd's Addition, a neighborhood in Portland. Ladd's Circle sits in the middle of the neighborhood as well as several popular bike routes. Currently stop signs require that every cyclist stop before entering the circle. Several of the intersections also have stripped pedestrian crossings. A wide road around the circle and clear sight lines allow entering bikes to see and merge easily with existing traffic.
+Walkers and cyclists both enjoy the beauty of Ladd's Addition, a neighborhood in Portland. Ladd's Circle sits in the middle of the neighborhood as well as several popular bike routes. Currently stop signs require that every cyclist stop before entering the circle. Several of the intersections also have striped pedestrian crossings. A wide road around the circle and clear sight lines allow entering bikes to see and merge easily with existing traffic.
 
 ####Friction between Pedestrian Safety and Cyclists' Incentives    
 *   Neighbors in the area worry about failure of cyclists to stop and the ensuing danger to pedestrians attempting to cross.
@@ -97,7 +97,7 @@ No simple solution will just show up for this issue. The current stop sign treat
 
 Unexpected behavior makes life more difficult for everyone. If some bikes stop and others continue without stopping pedestrians, fellow cyclists, and drivers will only be more confused and unsafe. In order for everyone to get around safely and happily we need to create an environment that supports different incentives. 
 
-By replacing the stop signs with yield signs we align expected behavior with legal behavior for cyclists. Unfortunately, this causes an unsafe environment for pedestrians. Most of the people entering the circle look left- and only left- while merging. Pedestrians crossing from the right side of the street will not be in the line of sight. To solve this problem more creative engineering feats are required. Perhaps someone can invent a tele-porter.
+By replacing the stop signs with yield signs we align expected behavior with legal behavior for cyclists. Unfortunately, this causes an unsafe environment for pedestrians. Most of the people entering the circle look left- and only left- while merging. Pedestrians crossing from the right side of the street will not be in the line of sight. To solve this problem more creative engineering feats are required. Perhaps someone can invent a teleporter.
 
 ####Suggested Actions
 Until the current set-up changes I suggest we treat each other with respect and courtesy.
