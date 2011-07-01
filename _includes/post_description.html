@@ -9,6 +9,7 @@
     </h4>
 		<span class="date">{{ post.date | date: "%B - %Y" }}</span>
 		<p class="description">{{ post.description}}</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.blog_url }}{{ post.url }}">Learn more about the experiment...</a></p>
     </li>
   {% endfor %}
   </ul>
