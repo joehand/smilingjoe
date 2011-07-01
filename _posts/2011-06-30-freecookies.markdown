@@ -57,7 +57,7 @@ Several cyclists and neighbors walking supported my efforts in getting people to
 
 Unfortunately, apart from immediate impact there is no way to observe, let alone measure, how my experiment impacted the remainder of people's days. My hope is that I at least helped people to enjoy the rest of their commute.
 
-Finally, the number of people who looked like they really wanted a cookie but had the self-control to not get one was impressive. Some of these were more fitness/diet reasons. But others simply did not trust me. I was disappointed by the unhappy and untrusting glances I got. I understand the reasons people did not want a cookie from a stranger. However, there is no reason to be sour about it.
+Finally, the number of people who looked like they really wanted a cookie but had the self-control to not get one was impressive. Some of these were more fitness/diet reasons. But others simply did not trust me. I was disappointed by the unhappy and distrusting glances I got. I understand the reasons people did not want a cookie from a stranger. However, there is no reason to be sour about it.
 
 ####Quick Take Away Thoughts
 #####General Notes

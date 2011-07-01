@@ -4,6 +4,8 @@ permalink: /:month/:year/:title
 
 home_url: http://joehand.org
 blog_url: http://smilingjoe.com
+about_url: http://smilingjoe.com/about.html
+#home_url: /
 #home_url: /
 #blog_url: /
 

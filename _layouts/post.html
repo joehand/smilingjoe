@@ -10,6 +10,9 @@ layout: main
 	<header>
 		<h1>{{ page.title }}</h1>
 		<span class="date">{{ page.date | date: "%B %e" }}</span>
+	    {% if page.title == "About the Smile" %}
+		<p>{{ page.description }}</p>
+	    {% endif %}
 	</header>
 	<article>	 
 
