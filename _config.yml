@@ -5,13 +5,18 @@ permalink: /:month/:year/:title
 home_url: http://joehand.org
 blog_url: http://smilingjoe.com
 about_url: http://smilingjoe.com/about.html
+support_url: http://smilingjoe.com/support.html
+cookie_url: http://smilingjoe.com/cookie.html
 #home_url: /
 #home_url: /
 #blog_url: /
+jspath: http://smilingjoe.com/assets/js/
+csspath: http://smilingjoe.com/assets/css/
+imgpath: http://smilingjoe.com/assets/img/
 
 name: "Smiling Joe"
-root_desc: "SmilingJoe.com"
 description: "Experiments in random acts of kindness."
+
 
 auto: true
 rdiscount:

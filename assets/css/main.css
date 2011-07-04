@@ -1,0 +1,658 @@
+
+/*
+	* Main stylesheet: contains CSS normalization, base styles, typography with a vertical rhythm and some mobile-first media queries
+
+	* Credit is left inline
+	* Much content and inspiration was taken from the normalize.css project:
+	* http://necolas.github.com/normalize.css/ and https://github.com/jonathantneal/normalize.css
+
+	* The media queries included in here are only placeholder. You should modify them as your content requires
+*/
+
+/* ==========================================================================================> DEFAULT STYLES */
+
+/* Styles for all viewport widths and print */
+
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* ============================================================> HTML5 ELEMENTS DISPLAY */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+audio[controls], canvas, video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+/* ============================================================> BASE STRUCTURE */
+
+html {
+	height: 100%;
+	font-size: 100%;
+	overflow-y: scroll; /* Force a scrollbar in non-IE */
+	-webkit-text-size-adjust: 100%; /* Remove iOS text size adjust without disabling user zoom */
+}
+
+/*
+	* The body will work like a 'div#wrapper' (for this to work, the 'body' needs to have a set width)
+
+	* To add a background to the PAGE, set it in the 'html' element
+	* To add a background to the WRAPPER, set it in the 'body' element
+*/
+body {
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+/* Font settings */
+body, button, input, select, textarea {
+	font: 16px/1.625 Georgia, serif;
+	*font-size: 1em; /* IE7 and older: IE can't resize px-based text and most mobiles don't default the text to 16px */
+	color: #444; /* Black on white is too much contrast, #333 is a lot better */
+}
+
+/* Add more tags as your project needs */
+p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, h4, h5, h6, img {
+	margin: 0 0 1.625em;
+}
+
+/* ============================================================> HEADINGS AND SMALL */
+
+/* 
+	* Font sizes are based on the golden ratio of 16
+	* See this for the modular scale: ow.ly/5jGl6
+	* Line-heights and margins are adjusted to keep a 26px (1.625em) vertical rhythm across elements 
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #111; /* More contrast than body text for headings */
+}
+
+h1 {
+	font-size: 4.25em; /* 68px */
+	line-height: 1.1471em;
+	margin: 0 0 0.3824em;
+}
+
+h2 {
+	font-size: 2.625em; /* 42px */
+	line-height: 1.2381em;
+	margin: 0 0 0.619em;
+}
+
+h3 {
+	font-size: 1.625em; /* 26px */
+	line-height: 1em;
+	margin: 0 0 1em;
+}
+
+h4 {
+	font-size: 1.45em; 
+	line-height: 1em;
+	margin: 0 0 1em;
+}
+
+h5 {
+	font-size: 1.1em; /* 26px */
+	line-height: 1em;
+	margin: 0 0 1em;
+}
+
+small {
+	font-size: 0.625em; /* 10px */
+	margin: 0 0 2.6em;
+}
+
+/* ============================================================> PREFORMATTED TEXT AND CODE */
+
+/* Allows line wrapping of 'pre' */
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+pre, code, kbd, samp {
+	font: 1em/1.625em Menlo, Consolas, 'DejaVu Sans Mono', Monaco, 'Courier New', Courier, monospace;
+}
+
+/* ============================================================> TABLES */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {
+	text-align: left;
+}
+
+tr, th, td {
+	padding-right: 1.625em;
+	border-bottom: 0 solid #333;
+}
+
+/* ============================================================> FORMS */
+
+form {
+	margin: 0;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+legend {
+	*margin-left: -7px;
+}
+
+button, input, select, textarea {
+	vertical-align: baseline;
+	*vertical-align: middle; /* IE7 and older */
+}
+
+button, input {
+	line-height: normal;
+	*overflow: visible;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/* Make buttons play nice in IE:
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {  width: auto; overflow: visible; }
+
+/* Colors for form validity */
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid {
+   border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red;
+}
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+
+/* ============================================================> QUOTES */
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+blockquote, q, cite {
+	font-style: italic;
+}
+
+blockquote {
+	padding-left: 1.625em;
+	border-left: 3px solid #ccc;
+}
+
+blockquote > p {
+	padding: 0;
+}
+
+/* ============================================================> LISTS */
+
+ul, ol {
+	padding: 0;
+	margin-left:20px;
+}
+
+li ul, li ol {
+	margin: 0 1.625em;
+}
+
+dl dd {
+	margin-left: 1.625em;
+}
+
+/* ============================================================> LINKS */
+
+a, a:active, a:visited {
+color: #607890;
+ -webkit-transition: color 1s linear;
+	  -moz-transition:: color 1s linear;
+ -o-transition: color 1s linear;/* opera */
+	  transition:: color 1s linear;
+}
+
+a:hover {
+  color: #c00;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+/* Better CSS outline suppression: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {
+	outline: none;
+}
+
+
+
+
+/* j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+
+/* ============================================================> VISUAL MEDIA */
+
+figure {
+	margin: 0;
+}
+
+img, object, embed, video {
+	max-width: 100%; /* Consider this first: unstoppablerobotninja.com/entry/fluid-images/ */
+	_width: 100%; /* If the image/video is smaller than the container, change 100% to an absolute value */
+}
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic; /* Improve IE's resizing of images: css-tricks.com/ie-fix-bicubic-scaling-for-images */
+}
+
+/* Corrects overflow displayed oddly in IE9 */
+svg:not(:root) {
+	overflow: hidden;
+}
+
+/* ============================================================> ABBREVIATIONS */
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted #333;
+	cursor: help;
+}
+
+/* ============================================================> MARKED/INSERTED/DELETED TEXT */
+
+ins, mark {
+	text-decoration: none;
+}
+
+mark {
+	background: #ff0;
+}
+
+ins {
+	background: #ff9;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* ============================================================> OTHERS */
+
+strong, b, dt {
+	font-weight: bold;
+}
+
+em,dfn {
+	font-style: italic;
+}
+
+var, address {
+	font-style: normal;
+}
+
+/* Position 'sub' and 'sup' without affecting line-height: gist.github.com/413930 */
+sub, sup {
+	font-size: 0.625em;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+
+/* These selection declarations have to be separate
+   No text-shadow: twitter.com/miketaylr/status/12228805301 */
+::-moz-selection{ background: #607890; color:#fff; text-shadow: none; }
+::selection { background:#607890; color:#fff; text-shadow: none; }
+
+/* ============================================================> HELPER CLASSES */
+
+/* 
+	* Micro clearfix hack
+	* More semantically titled with the class name 'group'
+
+	* Source: nicolasgallagher.com/micro-clearfix-hack/
+*/
+.group:before, .cf:after { 
+	content: ""; 
+	display: table; 
+}
+
+.group:after { 
+	clear: both; 
+}
+
+.group { 
+	*zoom: 1;
+}
+
+
+.floated li {
+	float:left;
+}
+
+/* ============================================================> PRIMARY STYLES */
+
+
+/* `Default (mobile) styles
+---------------------------------------- */
+/* Centering pages without a wrapper: http://www.camendesign.com/code/developpeurs_sans_frontieres */
+/* The body will work like a 'div#wrapper': add the background of the page to the 'html' tag and the background of the wrapper to the 'body' tag */
+html {
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*main heading*/
+#home h2{
+  text-align: center; 
+  font-family: Futura; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+#home h4{
+  text-align: center; 
+  text-transform: uppercase; 
+  color: #777;
+  margin-top:-20px;
+}
+
+
+/*article styles*/
+
+article {
+	border-bottom:3px solid #cfcfcf; 
+	border-top:3px solid #cfcfcf; 
+	margin:1em 0em;
+	padding:.5em 0;
+}
+
+/* general heading styles, applies for all headers in articles (main posts and homepage descriptions) etc*/
+ article header h2 {
+	border-bottom:none;
+}
+
+
+article h2 {
+  text-align: center; 
+  padding:.8em 0 .2em 0; 
+  font-family: Futura; 
+  text-transform: uppercase; 
+  color: #999;
+  letter-spacing: 1px; 
+  border-bottom: 1px solid #cfcfcf; 
+}
+
+/* styles for linked headers (main link and home link)*/
+
+article h5, #home h2 a, article header h2 a {
+	text-decoration:none;
+    font-family: 'Buda', arial, serif;
+	font-weight:bold;
+}
+
+article h3 {
+	font-style: italic;
+	font-family: Futura; 
+	padding:0 0 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px; 
+	text-shadow: 1px 1px 1px #efefef;
+	border-left: 3px solid #cfcfcf;
+	  text-shadow: 1px 1px 1px #efefef;
+}
+
+article h4 {
+		font-family: "Arial Narrow", Arial, Verdana, sans-serif;
+		padding:0 0 0 10px;
+		display:block;
+		text-transform: uppercase;
+		letter-spacing: 1px; 
+		border-left: 3px solid #cfcfcf;
+}
+
+/*aside links on homepage*/
+
+.links li {
+	list-style-type:none;
+	text-align:center;
+  	font-weight: bold;
+	width:33%;
+}
+
+.links a{
+	text-decoration:none;
+	padding:10px 0;
+}
+
+/*hack central*/
+.links .full {
+	display:none;
+}
+
+/*image on about page, need to deal with this better prolly*/
+img {float:right; padding:10px}
+
+/*hiding comments for mobile. not simple enough, prolly need to not load in first place oh well*/
+footer#comments {
+	display:none;
+}
+
+/**
+ * Non-semantic helper classes: please define your styles before this section.
+ */
+
+/* For image replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
+   j.mp/bestclearfix */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1; }
+
+
+/* ==================================> SCREEN-ONLY WIDE MOBILE (480px+) STYLES */
+
+/*not sure how different these are, no changes yet*/
+@media only screen and (min-width: 480px) {
+	body {
+		
+	}
+}
+
+/* ==================================> SCREEN-ONLY TABLETS/NETBOOKS (768px+) STYLES */
+
+@media only screen and (min-width: 768px) { 
+	body {
+		width:675px;
+	}
+	article, header {
+		padding:10px 35px;
+	}
+	
+	/*cant figure out the non-centering issue, hack away*/
+	aside {
+		padding:0 0 20px 15px;
+	}
+	
+	.links .full {
+		display:inline;
+	}
+	
+	p {
+		margin-left:auto;
+		margin-right:auto;
+		width:525px;
+	}
+	
+	li {
+		margin-left:auto;
+		margin-right:auto;
+		width:500px;
+	}
+	
+	
+}
+
+/* ===================================> SCREEN-ONLY DESKTOPS (1024px+) STYLES */
+
+@media only screen and (min-width: 1024px) { 
+	body {
+
+	}
+	
+	a, a:active, a:visited {
+	 -webkit-transition: color .7s ease-in-out .2s;
+	 -moz-transition:: color .7s ease-in-out .2s;
+	 -o-transition: color .7s ease-in-out .2s;
+	  transition:: color .7s ease-in-out .2s;
+	}
+	
+	article h2, article h3, article h4 {	
+		  text-shadow: 2px 1px 1px #efefef;
+	}
+	
+	.links li {
+		padding:10px 0;
+	}
+	
+ 	.links li:hover {
+	  -webkit-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	     -moz-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	       -o-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	          box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	}
+
+	
+}
+
+/* =================================> PRINT-ONLY STYLES */
+
+
+/**
+ * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+ */
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}

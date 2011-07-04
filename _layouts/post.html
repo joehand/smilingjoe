@@ -3,21 +3,24 @@ layout: main
 ---
 
 <div class="content">
-		{% include post_nav.html %}
-		
 	<section>
-	
+		
 	<header>
-		<h1>{{ page.title }}</h1>
-		<span class="date">{{ page.date | date: "%B %e" }}</span>
-	    {% if page.title == "About the Smile" %}
+		<h2>{{ page.title }}</h2>
+		<h3>{{ page.date | date: "%B %e" }}</h3>
+		
 		<p>{{ page.description }}</p>
-	    {% endif %}
 	</header>
+	
 	<article>	 
-
-    {{ content }}
-
+    {{ content }}	
 	</article>
+	
+	<footer id="comments">
+    {% if page.type != "about" %}
+	{% include disqus.html %}
+    {% endif %}
+	</footer>
 	</section>
+	
 </div>

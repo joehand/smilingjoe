@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Stop for a Free Chocolate Chip Cookie
+title: Stop for a Free Cookie
 
 number: 1
 description: In my first experiment of kindness I gave away free chocolate chip cookies to people in Ladd's Circle during the evening commute. Previous evidence showed almost no one stopping. I demonstrated that with proper incentives cyclists are happy to stop. By addressing this issue with positive action I gained a greater understanding of the problems and potential solutions.

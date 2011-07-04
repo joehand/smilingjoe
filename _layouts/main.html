@@ -1,27 +1,18 @@
 
 {% include head.html %}
-  <div id="container">
 	
-	<header>
-    <h1 id="home">
+	<header id="home">
+    <h2>
 	<a href="{{ site.blog_url }}">SmilingJoe</a>
-	</h1>
+	</h2>
     <h4>Experiments in Kindness: Addressing Conflicts with Smiles</h4>
     </header>
 
-	
 	{{ content }}
-
-    <footer>
-		{% include navigation.html %}
-    </footer>
-
-  </div> <!--! end of #container -->
-
-
+		
+	{% include links.html %}	
 
 {% include js.html %}
-
-
-{% include foot.html %}
+</body>
+</html>
 

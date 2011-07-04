@@ -1,0 +1,9 @@
+---
+layout: post
+title: Help Spread Kindness
+
+description: Whoops! I still need to make this page.
+type: about
+---
+
+This page will have all the juicy details about how you can help me, help your community, or help yourself! Cool stuff right?
