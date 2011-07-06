@@ -535,7 +535,7 @@ article img {margin:0 auto; padding:10px 30px}
 
 
 /*centering my iframes for witdths 425px*/
-iframe {display:block;margin:10px 0;}
+article iframe {display:block;margin:10px 0;}
 
 /*hiding comments for mobile. not simple enough, prolly need to not load in first place oh well*/
 footer#comments {
