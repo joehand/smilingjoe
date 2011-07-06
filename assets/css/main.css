@@ -431,9 +431,11 @@ sub {
 html {
 }
 
+/*padding on bottom so magnifiers dont overlap links on phone*/
 body {
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
+	padding:10px 0 50px;
 }
 
 /*main heading*/
@@ -525,12 +527,18 @@ article h4 {
 }
 
 /*image on about page, need to deal with this better prolly*/
-img {float:right; padding:10px}
+.about img {float:right; padding:10px;}
+
+article img {margin:0 auto; padding:10px 30px}
+
+
+/*centering my iframes for witdths 425px*/
+iframe {display:block;margin:10px 0;}
 
 /*hiding comments for mobile. not simple enough, prolly need to not load in first place oh well*/
 footer#comments {
-	display:none;
-}
+
+	border-bottom:3px solid #cfcfcf;}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
@@ -580,6 +588,8 @@ footer#comments {
 		padding:10px 35px;
 	}
 	
+	iframe {margin:10px 0 10px 70px;}
+	
 	/*cant figure out the non-centering issue, hack away*/
 	aside {
 		padding:0 0 20px 15px;
@@ -589,18 +599,21 @@ footer#comments {
 		display:inline;
 	}
 	
-	p {
+	article p {
 		margin-left:auto;
 		margin-right:auto;
 		width:525px;
 	}
 	
-	li {
+	article li {
 		margin-left:auto;
 		margin-right:auto;
 		width:500px;
-	}
+	}	
 	
+	article aside {
+		border:3px dashed #cfcfcf;
+	}
 	
 }
 
@@ -622,6 +635,22 @@ footer#comments {
 		  text-shadow: 2px 1px 1px #efefef;
 	}
 	
+	article aside {
+		position:absolute;
+		margin-left:600px;
+		width:300px;
+		padding:10px;
+	}
+	
+	article aside blockquote, article aside p {
+		width:275px;
+	}
+	
+	/*moving some asides up to match context*/
+	article aside.up {
+		margin-top:-200px;
+	}
+	
 	.links li {
 		padding:10px 0;
 	}
@@ -632,6 +661,8 @@ footer#comments {
 	       -o-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
 	          box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
 	}
+	
+	
 
 	
 }

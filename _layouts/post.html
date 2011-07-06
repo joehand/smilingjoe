@@ -2,7 +2,7 @@
 layout: main
 ---
 
-<div class="content">
+<div class="content {% if page.type == "about" %}about{% endif %}">
 	<section>
 		
 	<header>
@@ -16,11 +16,11 @@ layout: main
     {{ content }}	
 	</article>
 	
-	<footer id="comments">
     {% if page.type != "about" %}
+	<footer id="comments">
 	{% include disqus.html %}
-    {% endif %}
 	</footer>
+    {% endif %}
 	</section>
 	
 </div>
