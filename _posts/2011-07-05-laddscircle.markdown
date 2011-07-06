@@ -62,14 +62,22 @@ Even with all the seemingly dangerous conditions and illegal behavior there are 
 
 This anger comes from both sides. 
 
-Pedestrians __expect__ road users to stop because that is the law-- there is both a stop sign and cross walk. When they try to cross and find people not stopping they feel threatened and most likely become angry. 
-
+Pedestrians __expect__ road users to stop because that is the law-- there is both a stop sign and cross walk. When they try to cross and find people not stopping they feel threatened and most likely become angry.
 Attempts to deal with the problem through anger have resulted in the following actions:
+
+<aside class="sidenote">
+#####Other positive approaches
+
+_I am not sure how I missed this, but thanks to [Mia Birk](http://www.miabirk.com/blog) for pointing it out._
+
+On her [blog](http://www.miabirk.com/blog/?p=872) she tells the story of how they worked to address the same issue last week. Along the same line as cookies, they help up signs reminding road users about the crosswalk laws. Not with anger but with courtesy! And of course, people left the circle with smiles on their faces.
+</aside>
 
 *	Educational police stings to warn/cite road users for not stopping.
 _Road users know there is a stop sign there. Stopping them to educate them about the signs does not help, it makes them angry--especially the ones that pay over $200 for that education._
 *	Invisible trip wires to force people to stop with the help of gravity and hard pavement.
 _Anger is written all over this from both sides. Angry person set up wire. Road users feel threatened and most likely become angry._
+
 
 I think it is time we take a different approach and find a real solution to the problem. A real solution makes both sides happy, makes everyone safer, and makes a better public place everyone can enjoy.
 
