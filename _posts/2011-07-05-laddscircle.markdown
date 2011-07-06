@@ -178,7 +178,7 @@ But the real magic is in the math. All sides of all streets connected to the cir
 
 ![Crosswalks]({{ site.imgpath }}walk.jpg "Crosswalks")
 
-See an example this design in real life at St. Armand's Circle. This circle is much larger and has the correct merge--yield sign approach with the correct location for those cross walks. But there are also crosswalks going to the center circle.
+See an example this design in real life at St. Armand's Circle. This circle is much larger and has the correct merge--yield sign approach with the correct location for those cross walks. But there are also two crosswalks going to the center circle (red stripes on top right and bottom left of circle).
 <iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?ie=UTF8&amp;t=k&amp;ll=27.318433,-82.577257&amp;spn=0.001192,0.001341&amp;z=19&amp;output=embed"></iframe><br/>
 
 
@@ -195,7 +195,7 @@ I also believe it will be necessary to shorten the distance of these crosswalks.
 The biggest lesson I learned when handing out cookies was that when you give people incentive to stop or slow down, they will. Requiring people to do something with signs and markings only works up to a point. Solution part three is this:
 
 *	Create a space where people WANT to slow down and enjoy it.
-*	Entice people to communicate and cooperate by reducing required behavior.
+*	Entice people to communicate and cooperate by reducing required behavior in the form of signs and markings.
 *	Make merging speed an issue with more difficult sight lines and/or turning radii.
 *	Less road, more public space.
 

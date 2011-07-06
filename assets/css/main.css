@@ -529,6 +529,8 @@ article h4 {
 /*image on about page, need to deal with this better prolly*/
 .about img {float:right; padding:10px;}
 
+.about img.nofloat {float:none; padding:10px 40px;}
+
 article img {margin:0 auto; padding:10px 30px}
 
 
