@@ -166,9 +166,11 @@ Think about it, for a pedestrian to get from one side of the circle to the other
 <aside class="sidenote">
 #####Jaywalking?
 _Yes, I believe walking to the middle of the circle (where there is park) is jaywalking. All of the intersections are considered T-intersections the inside of the roundabout is all one constant road--no intersections. Please correct me if I am wrong._
+
+___As Freckles pointed out in the comments, I am wrong. Crossing into the circle is legal from anywhere. Cars have to yield if the pedestrian crosses from the intersections. Pedestrians have to yield if they cross midblock.___
 </aside>
 
-The first time I saw a pedestrian do it, I thought nothing of it. A guy with a bag full of cans managed to cross the entire circle while only crossing the street twice. __TWO street crossings!__ Unfortunately both of them were jaywalking.
+The first time I saw a pedestrian do it, I thought nothing of it. A guy with a bag full of cans managed to cross the entire circle while only crossing the street twice. __TWO street crossings!__ <strike>Unfortunately both of them were jaywalking.</strike> Oregon does not recognize the term "jaywalking." See the comments for a full discussion.
  
 Then I caught sight of something that I could not believe at first. A blind person walking the same route as the guy with the cans. _No way_. She felt safer walking through the middle of the circle than going around. As I sat in shock and thought about it, everything started to make sense.
 
