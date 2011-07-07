@@ -225,7 +225,7 @@ You look left but slow down before trying to merge. A mini park with a bench and
 
 A pedestrian starts to move from the edge of the circle towards the middle. Unsure of what they are doing you slow down. They see you and wave you ahead as you exit the circle. You finish your ride home with a smile on your face.
 
-###Solution Part Most Important
+###The Real Solution
 
 I neglected to mention one thing throughout this post. Unfortunately, this one thing is perhaps the biggest obstacle to any of this happening.
 
