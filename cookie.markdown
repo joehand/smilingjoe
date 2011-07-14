@@ -39,5 +39,9 @@ Follow the directions, make yummy cookies, and share them with your friends.
 
 The dough is much better if put in the fridge for 24-48hrs wrapped in plastic/tightly covered, especially if you melt the butter it makes it a little tough to work with immediately. Take it out of the fridge 30min before you plan on baking them. 
 
+![Cookie Dough]({{ site.imgpath }}cookie_dough.jpg "Dough Preparing for Battle (Credit:Joe Hand)")
+
 
 Good luck and enjoy the cookies.
+
+![Cookies]({{ site.imgpath }}cookies_med.jpg "Cookies (Credit:Joe Hand)")

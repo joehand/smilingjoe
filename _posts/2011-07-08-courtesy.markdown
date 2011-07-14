@@ -3,9 +3,12 @@ layout: post
 title: Kindness Cookies
 	
 number: 2
-description: A happy community is a cooperative community. Acts of kindness leads to increased levels of communication, trust, and most importantly, courtesy.
+description: <p>A happy community is a cooperative community. Acts of kindness leads to increased levels of communication, trust, and most importantly, courtesy.</p><p>In this experiment I encouraged others to take their own action of kindness. While this experiment did not go as well as the first, it was a great learning experience.</p>
 ---
 
+_Note: This write up is a work in progress. Expect a full update of my experiment by the end of the week._
+
+###Following Up on Experiment #1
 In my [follow up on Ladd's]({{ site.blog_url }}/07/2011/laddscircle/) I proposed some pretty ambitious goals for my next experiment:
 
 1.	Create a public space where people WANT to slow down and enjoy it.
@@ -19,27 +22,39 @@ Acts of kindness should not require great foresight or thought. In fact, the bes
 
 My second __Experiment in Kindness__ combines ideas from Mia Birk's latest blog post, [creating a culture of courtesy](http://www.miabirk.com/blog/?p=872), and a great idea from my brother (thanks Ben!). My original goals for this experiment required that I make decisions about what the cyclists should do. Even if they agree with my decision, it may not have a long-term effect. The real solution to the problem at Ladd's (as Mia points out in her post) is creating a __"culture of courtesy"__.
 
-So with that I announce my second experiment in kindness.
+####Brief Summary of Experiment #2
+The main change I made in approaching this experiment was in packaging the cookies. One of the main comments I received from my first experiment was the lack of trust in taking cookies from a stranger. In response, I packaged the cookies individually. Along with a cookie every bag contained a note with kind words or a kind action. These varied dramatically from the simple, "Just Smile", to the complex, "Buy your favorite chocolate and give it to a stranger." 
 
-##Experiment #2
-For experiment #2 I will be heading back to Ladd's Addition __this Friday, July 8 at 5pm__.
+![Cookies]({{ site.imgpath }}cookies_med.jpg "Cookies (Credit:Joe Hand)")
+
+My theory was that my kind action (giving a cookie) would encourage the receiver to continue with their own kind action. The cards were an attempt to encourage and provide suggestions. If this type of chain reaction happened then it would develop into a cultural shift. Now, obviously those are grand objectives, but I like to think the smallest action can have a big effect.
+
+Since this is the brief summary, I will be brief; the experiment did not turn out well. While I may have encouraged those that got cookies to be kind, getting people the cookies turned out to be very difficult. Finally, finding out whether my hypothesis is correct or not turns out to be a difficult task.
+
+My next experiment is in the works. It will be starting (unannounced) later this week. Read on for my full summary of experiment #2.
+
+##Experiment #2 Details
+For experiment #2 I went back to Ladd's Addition. This experiment turned out much different than my last one.
 
 ###Hypothesis
 __Encouraging people through kindness, to act with kindness, will help create a culture of courtesy.__
 
 ####Design
-*   Bake lots of delicious chocolate cookies (and maybe others)
-*   Set up on SE Ladd __a block or two BEFORE__ the circle
-*   Hold sign that says "Free Cookies from SmilingJoe"
-*   Tell people I have free cookies for them
+*   Bake lots of delicious chocolate cookies
+*	Package cookies with kind notes or suggested kind actions
+*   <strike>Set up on SE Ladd __a block or two BEFORE__ the circle</strike>
+*   <strike>Hold sign that says "Free Cookies from SmilingJoe"</strike>
+*	Walk around in the area of SE Ladd giving people cookies
 *   Hand out free cookies, watch people leave with smiles on their faces
 
 If you are thinking it sounds exactly like my last experiment, you are right. But there is a twist! Come by and find out.
 
+####General Observations
+
+_Coming Soon to a computer screen near you._
+
 ####Helping Smiling Joe
 
-I have gotten lots of offers for people wanting to help me with this and other experiments. I encourage people to come out to Ladd's Circle, but I will not be needing any help this time. You are more than welcome to join me and engage others in kind and unexpected ways. 
-
-Whether you show up or not--you can still help: take one second out of your life to make life for your neighbor, a friend, or a stranger easier.
+I have gotten lots of offers for people wanting to help me with this and other experiments. I am working on staying with smaller experiments right now. But you can still help! Take one second to make life for your neighbor, a friend, or a stranger easier, be kind to a stranger in an unexpected way, or just smile!
 
 >__"Each small kindness, like a seed, grows tall in memory."__
