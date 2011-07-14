@@ -19,25 +19,11 @@ Lots of commenters added some great conversation about experiment #1 on the <a h
 *	Worries related to communication (lack of signals and headphones)
 *	Distrust of cookies from a stranger
 
-First, I will undertake the issue of not trusting my cookies. I understand the reasons here. But I would love to help more people to enjoy my cookies. 
-
 In the last post I briefly mentioned some of the current problems. I have a greater grasp on the situation after reading the comments and spending more time observing traffic patterns in the circle. This post will hammer out the details on prevailing concerns. 
 
 Finally, I will present other solutions used worldwide and discuss how those approaches solve the issues we have. (Jump down to the [solutions](#solution).)
 
 Most importantly, the post acts as an announcement of my next batch of free cookies. Just want to find out when and where without scrolling? Check out [this page]({{ site.updates_url }}).
-
-#### Yummy Cookies you can Trust
-This summer and beyond I hope to provide many people with thoroughly delicious cookies. I want to do this in a way that people can trust me and feel what they are eating is safe. In order to do so I will be getting a food handlers card and a domestic kitchen license. Check out the sidebar to see how you can help.
-
-
-<aside class="sidenote up">
-#####_Warning: Shameless plug for donations follows._
-
-As any economics major knows-- there is no free lunch. As much as I would love to do this all for free, I can't. So, if you support what I am doing, enjoy my cookies, or just want more smiles, please consider donating. Read more about why I need money [here]( {{ site.support_url }}) or [donate away](https://www.wepay.com/donate/128714) if you like cookies.
-
-In an effort to encourage support I will keep all my monetary costs as transparent as possible on [this page]( {{ site.support_url }}).
-</aside>
 
 ![Cookies]({{ site.imgpath }}cookies_med.jpg "Cookies (Credit:Joe Hand)")
 

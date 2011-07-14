@@ -9,6 +9,10 @@ type: about
 
 ###Experiments in Kindness
 
+####Experiment #3
+#####Places in Portland, July 15-?
+I am working up plans for my next experiment. Stay tuned.
+
 ####Experiment #2
 #####Friday July 8th, 5pm
 Once again I will be visiting Ladd's Circle. Same location, new experiment. Don't worry, there will be __free cookies__.

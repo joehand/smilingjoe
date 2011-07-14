@@ -6,7 +6,6 @@ description: Ever since I can remember I made Chocolate Chip Cookies. Ten years 
 type: about
 ---
 
-####Page is a work in progress
 
 The real secret is not what you put in the cookies, but how you make them. So be sure to add lots of love!
 
