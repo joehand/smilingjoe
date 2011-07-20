@@ -1,16 +1,9 @@
 
 <nav class="short">
-  <ul>
-    {% for post in site.posts%}
-    {% if post.url == page.url %}
-    <li class="active">
-		<span class="date">{{ post.date | date: "%B %Y" }}</span><a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% else %}
-	  <li>
-		<span class="date">{{ post.date | date: "%B - %e" }}</span><a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endif %}
+    {% for post in site.posts %}
+	<article>
+		<h4 class="date">{{ post.date | date: "%B - %e" }}</h4><h3><a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a></h3>
+	</article>
     {% endfor %}
   </ul>
 </nav>

@@ -526,12 +526,16 @@ body {
 	position:relative;
 }
 
+.post .main-head {
+	padding-top:1em;
+}
+
 ul.tabs {
-	margin-left:1px;
+	margin-left:2px;
 }
 
 ul.tabs li {
-	width:33.35%;
+	width:33.33333%;
 }
 
 .main-head a{
@@ -556,6 +560,10 @@ article {
 	border-top:3px solid #{{ site.background_color }}; 
 	padding:.5em 0;
 	margin:1em 0;
+}
+
+article.no-top-border {
+	border-top:none;
 }
 
 /* general heading styles, applies for all headers in articles (main posts and homepage descriptions) etc*/
@@ -595,6 +603,10 @@ article h3 {
 		text-transform: uppercase;
 		letter-spacing: 1px; 
 		border-left: 3px solid #{{ site.extra_color }};
+}
+
+.comments {
+	padding-bottom:2em;
 }
 
 

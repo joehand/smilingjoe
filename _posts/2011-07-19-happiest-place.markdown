@@ -28,7 +28,7 @@ I offer you a simple three step process for the way to happiness:
 
 Foolproof right? Year after year Denmark ranks as the "[world's happiest nation](http://news.bbc.co.uk/2/hi/7487143.stm)." So anyone who goes there must be happy. Its the rules.
 
-However, you cannot suddenly become happy by just arriving in Denmark and any fool knows this. __To find true happiness, it must come from inside__. Sure you can enjoy a beautiful place, wonderful food, or a great concert. But unless you have the right attitude, nothing external will make you happy. 
+However, you cannot suddenly become happy by just arriving in Denmark and any fool knows this. __To find true happiness, it must come from within__. Sure you can enjoy a beautiful place, wonderful food, or a great concert. But unless you have the right attitude, nothing external will make you happy. 
 
 >There is no way to happiness. Happiness is the way.
 >>Thich Nhat Hanh
