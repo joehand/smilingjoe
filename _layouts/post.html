@@ -1,26 +1,30 @@
 ---
 layout: main
 ---
+<header class="main-head">
+<h3 class="remove-bottom"><a href="{{ site.blog_url }}">{{ site.name }}</a></h3>
+<h3 class="add-top">Find Your Smile, Change The World</h3>
+</header>
 
-<div class="content {% if page.type == "about" %}about{% endif %}">
+<div class="content post">
 	<section>
 		
 	<header>
 		<h2>{{ page.title }}</h2>
 		<h3>{{ page.date | date: "%B %e" }}</h3>
 		
+	    {% if post.category == "experiments" %}
 		<p>{{ page.description }}</p>
+	    {% endif %}
 	</header>
 	
 	<article>	 
     {{ content }}	
 	</article>
 	
-    {% if page.type != "about" %}
 	<footer id="comments">
 	{% include disqus.html %}
 	</footer>
-    {% endif %}
 	</section>
 	
 </div>

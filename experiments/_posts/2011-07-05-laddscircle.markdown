@@ -25,7 +25,7 @@ Finally, I will present other solutions used worldwide and discuss how those app
 
 Most importantly, the post acts as an announcement of my next batch of free cookies. Just want to find out when and where without scrolling? Check out [this page]({{ site.updates_url }}).
 
-![Cookies]({{ site.imgpath }}cookies_med.jpg "Cookies (Credit:Joe Hand)")
+![Cookies]({{ site.imgpath }}/cookies_med.jpg "Cookies (Credit:Joe Hand)")
 
 ####Recap of Experiment #1
 
@@ -172,7 +172,7 @@ By providing four crosswalks from mid-block points to the center of the circle w
 
 But the real magic is in the math. All sides of all streets connected to the circle can be accessed with between 1-4 crossings! Only one or two of those being at the merge points. Before a pedestrian would have to cross 3-4 merge points to cross the circle. Still confused? Check out my bad drawing:
 
-![Crosswalks]({{ site.imgpath }}walk.jpg "Crosswalks")
+![Crosswalks]({{ site.imgpath }}/walk.jpg "Crosswalks")
 
 See an example this design in real life at St. Armand's Circle. This circle is much larger and has the correct merge--yield sign approach with the correct location for those cross walks. But there are also two crosswalks going to the center circle (red stripes on top right and bottom left of circle).
 <iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?ie=UTF8&amp;t=k&amp;ll=27.318433,-82.577257&amp;spn=0.001192,0.001341&amp;z=19&amp;output=embed"></iframe><br/>

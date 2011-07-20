@@ -1,35 +1,55 @@
 <!doctype html>
-<!-- thanks html5boilerplate for awesome stuff that follows -->
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
+	
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8" />
+	
 
-  <title>{{ page.title }} &middot; {{ site.name }}</title>
-  <meta name="description" content="{{ page.description }}">
-  <meta name="author" content="Joe Hand">
+	<!-- Site/Author Info Set in Config.yml file, Title/Descriptions set per page-->
+  	<title>{{ page.title }} &middot; {{ site.name }}</title>
+  	<meta name="description" content="{{ page.meta_description }}">
+  	<meta name="author" content="{{ site.author }}">
 
-  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
 
+  	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+	
+	<!-- CSS, path set in config file
+  ================================================== -->
+	<link rel="stylesheet" href="{{ site.csspath }}/main.css">
+	
+	
+	<!-- Extra HEAD stuff  More ideas for your <head> here: h5bp.com/docs/#head-Tips
+  ================================================== -->
   <!-- sitemap link -->
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
-  <!-- prefetching fonts and some js-->
+  <!-- prefetching for jQuery and fonts-->
   <link rel="dns-prefetch" href="//ajax.googleapis.com" />
   <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-  <link rel="dns-prefetch" href="//smilingjoe.disqus.com" />
-
-  <!-- CSS: implied media="all" -->
-  <link rel="stylesheet" href="{{ site.csspath }}main.css?v=2">
+  <!-- prefetching for disqus -->
+	
+  {% if page.layout == 'post' %}
+  <link rel="dns-prefetch" href="//{{ site.disqus_shortname }}.disqus.com" />	
+  {% endif %}
 
   <link href='http://fonts.googleapis.com/css?family=Buda:light' rel='stylesheet' type='text/css'>
 
-<!-- All JavaScript at the bottom, except for Modernizr and Respond.-->
-  <script src="{{ site.jspath }}modernizr-2.0.min.js"></script>
-  <script src="{{ site.jspath }}respond.min.js"></script>
+
+<!-- All JavaScript at the bottom, except for Modernizr and Respond. -->
+  <script src="{{ site.jspath }}/libs/modernizr-2.0.min.js"></script>
+  <script src="{{ site.jspath }}/libs/respond.min.js"></script>
 
 </head>
-<body class="{{ page.body_class }}">
+<body>

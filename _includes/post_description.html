@@ -1,15 +1,18 @@
 
-<section>
-{% for post in site.posts limit:3 %}	
+{% for post in site.posts limit:4 offset:1 %}
   <article>
 	<header>
-    <h2>
-	<a href="{{ site.blog_url }}{{ post.url }}">Experiment #{{ post.number }}</a></h2>
-	<h3>{{ post.title }}</h3>
+    {% if post.categories == experiments %}
+	
+    <h3>Experiment
+	<a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a></h3>
+	
+    {% else %}
+    <h3>
+	<a href="{{ site.blog_url }}{{ post.url }}">{{ post.title }}</a></h3>
+    {% endif %}
 	<h5>{{ post.date | date: "%B, %e - %Y" }}</h5>
 	</header>
 	<p class="description">{{ post.description}}</p>
-	<h5><a href="{{ site.blog_url }}{{ post.url }}">Learn more about the experiment...</a></h5>
-  </article>	
+  </article>
 {% endfor %}
-</section>

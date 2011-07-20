@@ -5,19 +5,27 @@ permalink: /:month/:year/:title
 home_url: http://joehand.org
 blog_url: http://smilingjoe.com
 about_url: http://smilingjoe.com/about.html
-support_url: http://smilingjoe.com/support.html
-cookie_url: http://smilingjoe.com/cookie.html
-updates_url: http://smilingjoe.com/updates.html
-#home_url: /
-#home_url: /
-#blog_url: /
-jspath: http://smilingjoe.com/assets/js/
-csspath: http://smilingjoe.com/assets/css/
-imgpath: http://smilingjoe.com/assets/img/
+
+jspath: http://smilingjoe.com/assets/js
+csspath: http://smilingjoe.com/assets/css
+imgpath: http://smilingjoe.com/assets/img
 
 name: "Smiling Joe"
-description: "Experiments in kindness."
+author: "Joe Hand"
 
+disqus_shortname: "smilingjoe"
+google_analytics_ID: "UA-20883592-3"
+
+main_color: "004E88"
+main_color_rgb: "0,78,136"
+highlight_color: "EEE252"
+highlight_color_rgb: "238,226,82"
+background_color: "F1F2F4"
+background_color_rgb: "241,242,244"
+dark_color: "45665F"
+dark_color_rgb: "69,102,95"
+extra_color: "56C2C5"
+extra_color_rgb: "86,194,197"
 
 auto: true
 rdiscount:

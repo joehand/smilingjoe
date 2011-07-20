@@ -25,7 +25,7 @@ My second __Experiment in Kindness__ combines ideas from Mia Birk's latest blog 
 ####Brief Summary of Experiment #2
 The main change I made in approaching this experiment was in packaging the cookies. One of the main comments I received from my first experiment was the lack of trust in taking cookies from a stranger. In response, I packaged the cookies individually. Along with a cookie every bag contained a note with kind words or a kind action. These varied dramatically from the simple, "Just Smile", to the complex, "Buy your favorite chocolate and give it to a stranger." 
 
-![Kindness Cookies Prep]({{ site.imgpath }}cookie_prep.jpg "Cookies (Credit:Joe Hand)")
+![Kindness Cookies Prep]({{ site.imgpath }}/cookie_prep.jpg "Cookies (Credit:Joe Hand)")
 
 My theory was that my kind action (giving a cookie) would encourage the receiver to continue with their own kind action. The cards were an attempt to encourage and provide suggestions. If this type of chain reaction happened then it would develop into a cultural shift. Now, obviously those are grand objectives, but I like to think the smallest action can have a big effect.
 
@@ -47,7 +47,7 @@ __Encouraging people through kindness, to act with kindness, will help create a 
 *	Walk around in the area of SE Ladd giving people cookies
 *   Hand out free cookies, watch people leave with smiles on their faces
 
-![Cookie Dough]({{ site.imgpath }}cookie_dough.jpg "Cookies (Credit:Joe Hand)")
+![Cookie Dough]({{ site.imgpath }}/cookie_dough.jpg "Cookies (Credit:Joe Hand)")
 
 If you are thinking it sounds exactly like my last experiment, you are right. But there is a twist! Come by and find out.
 

@@ -1,3 +1,5 @@
+---
+---
 
 /*
 	* Main stylesheet: contains CSS normalization, base styles, typography with a vertical rhythm and some mobile-first media queries
@@ -42,7 +44,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-blockquote, q { quotes: none; }
+blockquote, q { quotes: none; border-left:3px solid #{{ site.main_color }};}
 
 blockquote:before, blockquote:after,
 q:before, q:after { content: ""; content: none; }
@@ -261,7 +263,7 @@ blockquote, q, cite {
 
 blockquote {
 	padding-left: 1.625em;
-	border-left: 3px solid #ccc;
+	border-left: 3px solid {{ site.dark_color }};
 }
 
 blockquote > p {
@@ -286,15 +288,14 @@ dl dd {
 /* ============================================================> LINKS */
 
 a, a:active, a:visited {
-color: #607890;
- -webkit-transition: color 1s linear;
-	  -moz-transition:: color 1s linear;
- -o-transition: color 1s linear;/* opera */
-	  transition:: color 1s linear;
+	color: #{{ site.main_color }};
+	text-decoration:none;
+	border-bottom:1px solid #fff;
 }
 
 a:hover {
-  color: #c00;
+	color: #{{ site.extra_color }};
+	border-bottom:1px solid #{{ site.highlight_color }};
 }
 
 a:focus {
@@ -305,9 +306,6 @@ a:focus {
 a:hover, a:active {
 	outline: none;
 }
-
-
-
 
 /* j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: #FF5E99; }
@@ -421,6 +419,85 @@ sub {
 	float:left;
 }
 
+
+/* #Misc from www.getskeleton.com
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+	
+	.remove-top { margin-top: 0 !important; }
+	.add-top { margin-top: 20px !important; }
+			
+/* #Tabs (activate in app.js) from www.getskeleton.com
+================================================== */
+	ul.tabs { 
+		display: block;
+		margin: 0 0 20px 0;
+		padding: 0;
+		border-bottom: solid 1px #ddd; }
+	ul.tabs li { 
+		display: block;
+		width: auto;
+		height: 30px;
+		padding: 0;
+		float: left;
+		margin-bottom: 0; }
+	ul.tabs li a { 
+		display: block; 
+		text-decoration: none;
+		width: auto; 
+		height: 29px; 
+		padding: 0px 20px; 
+		line-height: 30px; 
+		border: solid 1px #ddd;
+		border-width: 1px 0 0 1px; 
+		margin: 0;	
+		background: #f5f5f5;
+		font-size: 18px; }
+	ul.tabs li a.active { 
+		background: #fff; 
+		height: 30px;
+		position: relative;
+		top: -4px;
+		padding-top: 4px;
+		border-right-width: 1px;
+		margin: 0 -1px 0 0;
+		color: #111;
+		-moz-border-radius-topleft: 2px;
+		-webkit-border-top-left-radius: 2px;
+		border-top-left-radius: 2px;
+		-moz-border-radius-topright: 2px;
+		-webkit-border-top-right-radius: 2px;
+		border-top-right-radius: 2px; }
+	ul.tabs li:first-child a {
+		-moz-border-radius-topleft: 2px;
+		-webkit-border-top-left-radius: 2px;
+		border-top-left-radius: 2px; }
+	ul.tabs li:last-child a {
+		border-width: 1px 1px 0 1px;
+		-moz-border-radius-topright: 2px;
+		-webkit-border-top-right-radius: 2px;
+		border-top-right-radius: 2px; }
+
+	section.tabs-content { margin: 0; display: block; }
+	section.tabs-content > article { display:none; }
+	section.tabs-content > article.active { display: block; }
+
+	/* Clearfixing tabs for beautiful stacking */
+	ul.tabs:before,
+	ul.tabs:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+  		visibility: hidden;
+	 	width: 0;
+	  	height: 0; }
+	ul.tabs:after {
+	  clear: both; }
+	ul.tabs {zoom: 1; }
+			
+
 /* ============================================================> PRIMARY STYLES */
 
 
@@ -435,112 +512,92 @@ html {
 body {
 	width: 95%;
 	margin: 0 auto;
-	padding:10px 0 50px;
+	height:100%;
+	padding-bottom:2em;
 }
 
 /*main heading*/
-#home h2{
-  text-align: center; 
-  font-family: Futura; 
-  text-transform: uppercase; 
-  letter-spacing: 1px; 
+.main-head {
+	background-color:rgba({{ site.background_color_rgb }}, 1);
+	padding-bottom:1em;
+  	text-align: center;
+  	text-transform: uppercase;
+	margin-bottom:3em;
+	position:relative;
 }
 
-#home h4{
-  text-align: center; 
-  text-transform: uppercase; 
-  color: #777;
-  margin-top:-20px;
+ul.tabs {
+	margin-left:1px;
 }
+
+ul.tabs li {
+	width:33.35%;
+}
+
+.main-head a{
+  font-family: buda, sans-serif; 
+  font-weight:bold;
+  letter-spacing: 2px; 
+  font-size:1.2em;
+  border:none;
+}
+
+.main-head h3{
+  padding-top:.4em		
+  text-shadow: white 0px 1px 1px;
+}
+
 
 
 /*article styles*/
 
 article {
-	border-bottom:3px solid #cfcfcf; 
-	border-top:3px solid #cfcfcf; 
-	margin:1em 0em;
+	border-bottom:3px solid #{{ site.background_color }}; 
+	border-top:3px solid #{{ site.background_color }}; 
 	padding:.5em 0;
+	margin:1em 0;
 }
 
 /* general heading styles, applies for all headers in articles (main posts and homepage descriptions) etc*/
- article header h2 {
+article header h1 {
 	border-bottom:none;
+  	font-size:2.025em;
+    text-align:left;
 }
 
 
-article h2 {
+article h1 {
   text-align: center; 
   padding:.8em 0 .2em 0; 
   font-family: Futura; 
   text-transform: uppercase; 
-  color: #999;
-  letter-spacing: 1px; 
-  border-bottom: 1px solid #cfcfcf; 
+  color: #111;
+  font-size:2.625em;
+  border-bottom: 1px solid #{{ site.highlight_color }}; 
 }
 
 /* styles for linked headers (main link and home link)*/
 
-article h5, #home h2 a, article header h2 a {
-	text-decoration:none;
-    font-family: 'Buda', arial, serif;
-	font-weight:bold;
-}
-
-article h3 {
+article h2 {
 	font-style: italic;
 	font-family: Futura; 
 	padding:0 0 0 10px;
 	text-transform: uppercase;
 	letter-spacing: 1px; 
 	text-shadow: 1px 1px 1px #efefef;
-	border-left: 3px solid #cfcfcf;
-	  text-shadow: 1px 1px 1px #efefef;
+	border-left: 3px solid #{{ site.extra_color }};
 }
 
-article h4 {
+article h3 {
 		font-family: "Arial Narrow", Arial, Verdana, sans-serif;
 		padding:0 0 0 10px;
 		display:block;
 		text-transform: uppercase;
 		letter-spacing: 1px; 
-		border-left: 3px solid #cfcfcf;
+		border-left: 3px solid #{{ site.extra_color }};
 }
 
-/*aside links on homepage*/
 
-.links li {
-	list-style-type:none;
-	text-align:center;
-  	font-weight: bold;
-	width:33%;
-}
-
-.links a{
-	text-decoration:none;
-	padding:10px 0;
-}
-
-/*hack central*/
-.links .full {
-	display:none;
-}
-
-/*image on about page, need to deal with this better prolly*/
-.about img {float:right; padding:10px;}
-
-.about img.nofloat {float:none; padding:10px 40px;}
-
-article img {margin:0 auto; padding:10px 30px}
-
-
-/*centering my iframes for witdths 425px*/
-article iframe {display:block;margin:10px 0;}
-
-/*hiding comments for mobile. not simple enough, prolly need to not load in first place oh well*/
-footer#comments {
-
-	border-bottom:3px solid #cfcfcf;}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
@@ -584,37 +641,13 @@ footer#comments {
 
 @media only screen and (min-width: 768px) { 
 	body {
+		width:100%;
+		padding-bottom:0;
+	}
+	
+	.content {
 		width:675px;
-	}
-	article, header {
-		padding:10px 35px;
-	}
-	
-	article iframe {margin:10px 0 10px 70px;}
-	
-	/*cant figure out the non-centering issue, hack away*/
-	aside {
-		padding:0 0 20px 15px;
-	}
-	
-	.links .full {
-		display:inline;
-	}
-	
-	article p {
-		margin-left:auto;
-		margin-right:auto;
-		width:525px;
-	}
-	
-	article li {
-		margin-left:auto;
-		margin-right:auto;
-		width:500px;
-	}	
-	
-	article aside {
-		border:3px dashed #cfcfcf;
+		margin:0 auto;
 	}
 	
 }
@@ -626,17 +659,36 @@ footer#comments {
 
 	}
 	
+	
+	.turn {
+	   -moz-transform: rotate(90deg);  
+	     -o-transform: rotate(90deg);  
+	-webkit-transform: rotate(90deg);  
+	    -ms-transform: rotate(90deg);  
+	        transform: rotate(90deg);  
+		}
+
+	h1.turn {		
+			position:absolute;
+			right:-235px;
+			top:520px;
+	}
+	h1.turn a {		
+			letter-spacing:25px;
+			 -webkit-transition: all .7s linear .4s;
+			 -moz-transition:: all .7s linear .4s;
+			 -o-transition: all .7s linear .4s;
+			  transition:: all .7s linear .4s;
+	}
+	
 	a, a:active, a:visited {
-	 -webkit-transition: color .7s ease-in-out .2s;
-	 -moz-transition:: color .7s ease-in-out .2s;
-	 -o-transition: color .7s ease-in-out .2s;
-	  transition:: color .7s ease-in-out .2s;
+	 -webkit-transition: border .2s linear .2s;
+	 -moz-transition:: border .2s linear .2s;
+	 -o-transition: border .2s linear .2s;
+	  transition:: border .2s linear .2s;
 	}
 	
-	article h2, article h3, article h4 {	
-		  text-shadow: 2px 1px 1px #efefef;
-	}
-	
+
 	article aside {
 		position:absolute;
 		margin-left:600px;
@@ -652,22 +704,27 @@ footer#comments {
 	article aside.up {
 		margin-top:-200px;
 	}
-	
-	.links li {
-		padding:10px 0;
-	}
-	
- 	.links li:hover {
-	  -webkit-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-	     -moz-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-	       -o-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-	          box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-	}
-	
-	
-
+		
 	
 }
+
+/* ========================================>WEBKIT only */
+/*probably unecessary but this inset text looks much much better. does not work in FF*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 768px) {
+ 
+	/*thanks simurai for nice inset text:http://simurai.com/post/698681341/inset-text-shadow*/
+	.inset-text {
+		font-weight:bold;
+		color: transparent;
+ 		background-color: rgba(82,96,117,0.6);
+		-webkit-background-clip: text;
+		text-shadow: rgba(255,255,255,0.4) 0 5px 6px;
+	
+	}
+
+}
+
 
 /* =================================> PRINT-ONLY STYLES */
 
