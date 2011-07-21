@@ -488,7 +488,7 @@ sub {
 		-webkit-border-top-right-radius: 2px;
 		border-top-right-radius: 2px; }
 
-	section.tabs-content { margin: 0; display: block; }
+	section.tabs-content { display: block; }
 	section.tabs-content > article { display:none; }
 	section.tabs-content > article.active { display: block; }
 	
@@ -678,7 +678,7 @@ border:3px dashed #{{ site.extra_color }};
 	}
 	
 	.post section {
-		width:80%;
+		width:600px;
 		margin:0 auto;
 	}
 	
@@ -697,6 +697,17 @@ border:3px dashed #{{ site.extra_color }};
 		  font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
 		  text-shadow: rgba(0,0,0,0.15) -1px 0, rgba(255,255,255, 0.8) 0px 2px 1px, rgba({{ site.main_color_rgb }},0.05) -1px -1px;
 		}
+		
+	/*homepage stuff*/
+	.page-content {
+		width:100%;
+		padding-bottom:20px;
+	}
+	
+	.tabs-content {
+		width:600px;
+		margin:0 auto;
+	}
 
 	
 }

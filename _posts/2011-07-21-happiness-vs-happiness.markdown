@@ -16,6 +16,7 @@ Perhaps finding happiness is so easy we do not need to teach it. Or maybe we lea
 
 When a parent tells a child to eat their veggies or to stop watching TV and do their homework, they do so for the child's own good. Parents force the child to forgo the short-term sensory happiness of television for their long-term happiness. The child may not agree or understand how studying will make them happy, but the adults know. Yet so many adults act like children when seeking happiness.
 
+###Immediate Happiness
 Short-term interests plague the country. Looking at any of the problems the country faces-- economic issues, obesity, never-ending legal battles, or war-- adults everywhere pursue the quickest route to pleasure mistaking it for happiness. Sadly, many of these actions ignore the personal and social consequences over time.
 
 >Our tendency is to rush in and do what seems to promise the shortest route to satisfaction. But in doing so, all too frequently we deprive ourselves of the opportunity for a greater degree of fulfillment.
