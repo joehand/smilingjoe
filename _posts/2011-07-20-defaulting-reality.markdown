@@ -2,8 +2,8 @@
 layout: post 
 title: Dangers of Reaching The National Bullshit Ceiling
 
-
-meta_description: 
+meta_description: The nation is reaching the <strong>National Bullshit Ceiling</strong>. Young generations are becoming completely dismissive of politics leaving a nation without leaders.
+description: Without bold truth-telling action, the nation will "default on reality". But that would just be the beginning of our problems. Future generations may become completely dismissive of politics leaving a nation without leaders.
 ---
 
 The Daily Show recently discussed the <strong>National Bullshit Ceiling</strong> and the threat it poses to the country. Daily Show correspondent, Jason Jones, warned us of the impending doom if we pass the limit:
