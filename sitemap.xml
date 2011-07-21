@@ -9,6 +9,18 @@ layout: nil
       <changefreq>weekly</changefreq>
       <priority>1</priority>
    </url>
+	<url>
+      <loc>{{ site.blog_url }}/archive/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+	<url>
+      <loc>{{ site.blog_url }}/experiments/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
 {% for post in site.posts %}
    <url>
       <loc>{{ site.blog_url }}{{ post.url }}</loc>

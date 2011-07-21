@@ -5,15 +5,15 @@ layout: main
 <div class="content post">
 
 <header class="main-head">
-<h3 class="remove-bottom"><a href="{{ site.blog_url }}">{{ site.name }}</a></h3>
-<h3 class="add-top">Find Your Smile, Change The World</h3>
+<h2 class="remove-bottom"><a href="{{ site.blog_url }}">{{ site.name }}</a></h2>
+<h3 class="add-top inset-text">Find Your Smile, Change The World</h3>
 </header>
 
 	<section>
 		
 	<header>
 		<h2>{{ page.title }}</h2>
-		<h3>{{ page.date | date: "%B %e" }}</h3>
+		<h3>{{ page.date | date: "%B %e, %Y" }}</h3>
 		
 	    {% if post.category == "experiments" %}
 		<p>{{ page.description }}</p>

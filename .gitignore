@@ -37,3 +37,5 @@ build/config/buildinfo.properties
 _site
 _config.yml
 
+
+.htaccess

@@ -150,6 +150,10 @@ small {
 	margin: 0 0 2.6em;
 }
 
+.big {
+	font-size:1.5em;
+}
+
 /* ============================================================> PREFORMATTED TEXT AND CODE */
 
 /* Allows line wrapping of 'pre' */
@@ -283,6 +287,10 @@ li ul, li ol {
 
 dl dd {
 	margin-left: 1.625em;
+}
+
+ul.no-bullet li {
+	list-style-type:none;
 }
 
 /* ============================================================> LINKS */
@@ -483,6 +491,10 @@ sub {
 	section.tabs-content { margin: 0; display: block; }
 	section.tabs-content > article { display:none; }
 	section.tabs-content > article.active { display: block; }
+	
+	ul.tabs a:focus {
+		outline:none;
+	}
 
 	/* Clearfixing tabs for beautiful stacking */
 	ul.tabs:before,
@@ -518,7 +530,7 @@ body {
 
 /*main heading*/
 .main-head {
-	background-color:rgba({{ site.background_color_rgb }}, 1);
+	background-color:rgba({{ site.background_color_rgb }}, .2);
 	padding-bottom:1em;
   	text-align: center;
   	text-transform: uppercase;
@@ -556,8 +568,8 @@ ul.tabs li {
 /*article styles*/
 
 article {
-	border-bottom:3px solid #{{ site.background_color }}; 
-	border-top:3px solid #{{ site.background_color }}; 
+	border-bottom:3px solid rgba({{ site.background_color_rgb }}, .2); 
+	border-top:3px solid rgba({{ site.background_color_rgb }}, .2); 
 	padding:.5em 0;
 	margin:1em 0;
 }
@@ -605,10 +617,13 @@ article h3 {
 		border-left: 3px solid #{{ site.extra_color }};
 }
 
+article aside.sidenote {
+border:3px dashed #{{ site.extra_color }};
+}
+
 .comments {
 	padding-bottom:2em;
 }
-
 
 
 /**
@@ -658,9 +673,31 @@ article h3 {
 	}
 	
 	.content {
-		width:675px;
+		width:750px;
 		margin:0 auto;
 	}
+	
+	.post section {
+		width:80%;
+		margin:0 auto;
+	}
+	
+	.post header {
+		text-align:center;
+		margin-left:-.5em;
+	}
+	
+	aside.sidenote {
+		padding:10px;
+	}
+
+	.inset-text {
+		font-weight:bold;
+		color: rgba({{ site.main_color_rgb }}, .1);
+		  font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+		  text-shadow: rgba(0,0,0,0.15) -1px 0, rgba(255,255,255, 0.8) 0px 2px 1px, rgba({{ site.main_color_rgb }},0.05) -1px -1px;
+		}
+
 	
 }
 
@@ -682,11 +719,11 @@ article h3 {
 
 	h1.turn {		
 			position:absolute;
-			right:-235px;
-			top:520px;
+			right:-275px;
+			top:490px;
 	}
 	h1.turn a {		
-			letter-spacing:25px;
+			letter-spacing:23px;
 			 -webkit-transition: all .7s linear .4s;
 			 -moz-transition:: all .7s linear .4s;
 			 -o-transition: all .7s linear .4s;
@@ -701,19 +738,18 @@ article h3 {
 	}
 	
 
-	article aside {
+	aside.sidenote {
 		position:absolute;
-		margin-left:600px;
+		margin-left:620px;
 		width:300px;
-		padding:10px;
 	}
 	
-	article aside blockquote, article aside p {
+	.sidenote blockquote, .sidenote p {
 		width:275px;
 	}
 	
 	/*moving some asides up to match context*/
-	article aside.up {
+	.sidenote.up {
 		margin-top:-200px;
 	}
 		
@@ -727,7 +763,6 @@ article h3 {
  
 	/*thanks simurai for nice inset text:http://simurai.com/post/698681341/inset-text-shadow*/
 	.inset-text {
-		font-weight:bold;
 		color: transparent;
  		background-color: rgba(82,96,117,0.6);
 		-webkit-background-clip: text;

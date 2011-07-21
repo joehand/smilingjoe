@@ -2,13 +2,13 @@
 layout: post 
 title: Find Your Smile, Change The World
 
-meta_description: An introduction to the SmilingJoe blog. 
-description: My first post in the SmilingJoe blog series. I am passionate about creating a kind and compassionate society. This post examines the first step we each need to take to accomplish this.
+meta_description: Welcome to the first SmilingJoe blog post. My name is Joe and I smile. I am holding you accountable for all the misery in the world. Until you change the world, I may not share my smile with you.
+description: I am holding you accountable for all the misery in the world. Until you change the world, I may not share my smile with you. <b>The first step to changing the world is finding your smile</b>. Sounds terrible right? I encourage you to not learn more and continue to be sad.
 ---
 
 Welcome to the SmilingJoe blog. My name is Joe and I smile. I desire to find inner peace while making the world a kinder place. I am passionate about developing a stronger moral fabric in society. I write about discovering true happiness and how individuals can create world peace. I am looking for people who want to take responsibility for their own happiness and by doing so create a revolution.
 
-If every person takes initiative to find their true smile, they can change the world. It all starts with our inner self and moves out from there. Being at peace with ourself will allow our actions to help, not hurt, others. Acting with kindness will enable communication. Communication creates trust and friendship. Cooperation follows. And with cooperation, we can change the world. So what are you waiting for? Be happy. 
+If every person takes initiative to find their true smile, they can change the world. It all starts with our inner self and moves out from there. Being at peace with ourself will allow our actions to help, not hurt, others. Acting with kindness will enable communication. Communication creates trust and friendship. Cooperation follows. And with cooperation, we can change the world. So what are you waiting for? __Be happy__. 
  
 ###It Is Your Fault
 
@@ -35,8 +35,8 @@ ___Find Your Smile, Change The World___
 
 ###A Simple Equation for World Peace
 
->"If you want to change the world, first try to improve and bring about change within yourself. That will help change your family. From there it just gets bigger and bigger. Everything we do has some effect, some impact."
->>The Dalai Lama
+>If you want to change the world, first try to improve and bring about change within yourself. That will help change your family. From there it just gets bigger and bigger. Everything we do has some effect, some impact.
+>>__The Dalai Lama__
 
 Throughout every speech The Dalai Lama gives he states that he is powerless in creating world peace if individuals do not take change themselves. Then he reveals his formula for how every person can create world peace:
 
@@ -57,7 +57,7 @@ See how you respond to positive or negative events. Acknowledge those reactions.
 
 It sounds simple. However, the power of knowing what we can change or not will help us find our true smile.
 
->"As a single footstep will not make a path on the earth, so a single thought will not make a pathway in the mind. To make a deep physical path, we walk again and again. To make a deep mental path, we must think over and over the kind of thoughts we wish to dominate our lives."
->>Henry David Thoreau
+>As a single footstep will not make a path on the earth, so a single thought will not make a pathway in the mind. To make a deep physical path, we walk again and again. To make a deep mental path, we must think over and over the kind of thoughts we wish to dominate our lives.
+>>__Henry David Thoreau__
 
 <!-- more end -->

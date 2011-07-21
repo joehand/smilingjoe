@@ -3,12 +3,12 @@ pygments: true
 permalink: /:month/:year/:title
 
 home_url: http://joehand.org
-blog_url: http://smilingjoe.com
-about_url: http://smilingjoe.com/about.html
+blog_url: http://happy.smilingjoe.com
+about_url: http://happy.smilingjoe.com/about.html
 
-jspath: http://smilingjoe.com/assets/js
-csspath: http://smilingjoe.com/assets/css
-imgpath: http://smilingjoe.com/assets/img
+jspath: http://happy.smilingjoe.com/assets/js
+csspath: http://happy.smilingjoe.com/assets/css
+imgpath: http://happy.smilingjoe.com/assets/img
 
 name: "Smiling Joe"
 author: "Joe Hand"
@@ -16,16 +16,16 @@ author: "Joe Hand"
 disqus_shortname: "smilingjoe"
 google_analytics_ID: "UA-20883592-3"
 
-main_color: "004E88"
-main_color_rgb: "0,78,136"
-highlight_color: "EEE252"
-highlight_color_rgb: "238,226,82"
-background_color: "F1F2F4"
-background_color_rgb: "241,242,244"
-dark_color: "45665F"
-dark_color_rgb: "69,102,95"
-extra_color: "56C2C5"
-extra_color_rgb: "86,194,197"
+main_color: "1C90C1"
+main_color_rgb: "28,144,193"
+highlight_color: "7CC9CF"
+highlight_color_rgb: "124,201,207"
+background_color: "BEE2E7"
+background_color_rgb: "190,226,231"
+dark_color: "696969"
+dark_color_rgb: "105,105,105"
+extra_color: "CD4C39"
+extra_color_rgb: "205,76,57"
 
 auto: true
 rdiscount:

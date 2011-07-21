@@ -2,7 +2,8 @@
 layout: post 
 title: The Only Place In The World Where You Can Find Happiness
 
-meta_description: 
+meta_description: Read the most definitive guide ever about the happiest place on Earth. Inside I offer a simple three step fix to finally reach the ultimate goal in life.
+description: After reading through top ten list after top ten list, a book about the happiest countries on Earth, surveys about happiness, and even visiting some happy places, I finally found it, <strong>the happiest place in the World</strong>. Read the most definitive guide ever about the happiest place on Earth. Inside I offer a simple three step fix to finally reach the ultimate goal in life.
 ---
 
 Searching Google for ___happiest place in world___ yields almost three million results. Millions of top ten lists fight to reach the top ten spots on the first search page. A self-proclaimed grump, Eric Weiner, even took it upon himself to fly around the world searching for the world's happiest place in the book _<a href="http://www.amazon.com/gp/product/044669889X/ref=as_li_qf_sp_asin_tl?ie=UTF8&tag=smijoe-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=044669889X">The Geography of Bliss</a><img src="http://www.assoc-amazon.com/e/ir?t=smijoe-20&l=as2&o=1&a=044669889X&camp=217145&creative=399369" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />_. 
@@ -26,20 +27,24 @@ I offer you a simple three step process for the way to happiness:
 2.	Pack your stuff, fly there.
 3.  Arrive in world's happiest place, be happy.
 
-Foolproof right? Year after year Denmark ranks as the "[world's happiest nation](http://news.bbc.co.uk/2/hi/7487143.stm)." So anyone who goes there must be happy. Its the rules.
+Foolproof right? Year after year Denmark ranks as the "[world's happiest nation](http://news.bbc.co.uk/2/hi/7487143.stm)." So anyone who goes there must be happy. It's the rules.
 
 However, you cannot suddenly become happy by just arriving in Denmark and any fool knows this. __To find true happiness, it must come from within__. Sure you can enjoy a beautiful place, wonderful food, or a great concert. But unless you have the right attitude, nothing external will make you happy. 
 
 >There is no way to happiness. Happiness is the way.
->>Thich Nhat Hanh
+>>__Thich Nhat Hanh__
 
 ##Cultivating Happiness
 I talked briefly at the end of [my last post]({{ site.blog_url }}/07/2011/intro/) about planting the seed for this attitude. First you must be aware of what you can and cannot control. Things happen. Great things, terrible things. Unless you are a wizard or have a time machine you are powerless to change the past. But you still have a great power within you. 
 
-You have the power to control your thoughts. Every event summons a reaction within your mind. Start to nurture the attitude that you have the superpower of authority over your mind. Be attentive to your immediate response to any external event. Begin to work on acknowledging your knee-jerk thoughts, then let them pass by, as if they were a small cloud in an otherwise blue sky.
-####Keep the Sky Blue
-_Cultivate a blue sky in your mind_. Actively strive to keep that sky clear of nasty thoughts and intentions-- ___for that is the only place in the world where you can find happiness___.
+You have the power to control your thoughts. Every event summons a reaction within your mind. Start to nurture the attitude that you have the superpower of authority over your mind. Be attentive to your immediate response to any external event. Here is your homework assignment:
 
+*	Acknowledge your knee-jerk thoughts, becoming aware of them as they develop.
+*	Remember that you have a superpower. With that power you can control your mind.
+*	Finally, let the thoughts pass by, as if they were a small cloud in an otherwise blue sky.
+
+####Keep the Sky Blue
+_Cultivate a blue sky in your mind_. Actively strive to keep that sky clear of nasty thoughts and intentions-- ___for that is the only place in the world where you can find happiness___. See the clouds, say hello if you like, then watch as they drift out of sight.
 
 
 ###Find Your Smile, Find Happiness

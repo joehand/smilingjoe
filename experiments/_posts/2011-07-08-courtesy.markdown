@@ -3,10 +3,10 @@ layout: post
 title: Kindness Cookies
 	
 number: 2
-description: <p>A happy community is a cooperative community. Acts of kindness leads to increased levels of communication, trust, and most importantly, courtesy.</p><p>In this experiment I encouraged others to take their own action of kindness. While this experiment did not go as well as the first, it was a great learning experience.</p>
+description: <p>A happy community is a cooperative community. Acts of kindness leads to increased levels of communication, trust, and most importantly, courtesy.</p><p>In this experiment I encouraged others to take their own action of kindness.</p>
 ---
 
-_Note: This write up is a work in progress. Expect a full update of my experiment by the end of the week._
+_Note: This write up is a work in progress._
 
 ###Following Up on Experiment #1
 In my [follow up on Ladd's]({{ site.blog_url }}/07/2011/laddscircle/) I proposed some pretty ambitious goals for my next experiment:
@@ -49,7 +49,6 @@ __Encouraging people through kindness, to act with kindness, will help create a 
 
 ![Cookie Dough]({{ site.imgpath }}/cookie_dough.jpg "Cookies (Credit:Joe Hand)")
 
-If you are thinking it sounds exactly like my last experiment, you are right. But there is a twist! Come by and find out.
 
 ####General Observations
 
@@ -57,6 +56,6 @@ _Coming Soon to a computer screen near you._
 
 ####Helping Smiling Joe
 
-I have gotten lots of offers for people wanting to help me with this and other experiments. I am working on staying with smaller experiments right now. But you can still help! Take one second to make life for your neighbor, a friend, or a stranger easier, be kind to a stranger in an unexpected way, or just smile!
+Help Joe by spreading kindness. Take one second to make life for your neighbor, a friend, or a stranger easier, be kind to a stranger in an unexpected way, or just smile!
 
 >__"Each small kindness, like a seed, grows tall in memory."__

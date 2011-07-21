@@ -50,9 +50,11 @@ $(document).ready(function() {
 				
 				//Show Tab Content & add active class
 				$(contentLocation).show().addClass('active').siblings().hide().removeClass('active');
-				
+							
+
 			} 
 		});
 	}); 
 	
 });
+
