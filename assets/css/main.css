@@ -625,7 +625,7 @@ border:3px dashed #{{ site.extra_color }};
 	padding-bottom:2em;
 }
 
-img {
+article img {
 	display:block;
 	margin:0 auto;
 }
@@ -640,6 +640,18 @@ iframe.twitter-share-button {
 	margin:0;
 	display:inline;
 }
+
+aside.social {
+	display:none;
+}
+
+
+.small-caps {
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
@@ -717,12 +729,35 @@ iframe.twitter-share-button {
 	.page-content {
 		width:100%;
 		padding-bottom:20px;
+		position:relative;
+		overflow-x:hidden;
 	}
 	
 	.tabs-content {
 		width:600px;
 		margin:0 auto;
 	}
+	
+	aside.social {
+		display:block;
+		position:fixed;
+		left:10px;
+	}
+	
+	.social h5 {
+		width:auto;
+		float:none;
+	}
+
+
+	.social img {
+		display:inline;
+		margin:0 10px;
+		vertical-align:bottom;
+		padding:0 5px;
+	}
+
+
 
 	
 }
@@ -778,8 +813,31 @@ iframe.twitter-share-button {
 	.sidenote.up {
 		margin-top:-200px;
 	}
-		
 	
+	aside.social {
+		left:100px;
+	}
+	
+	.social a, .social a:after, .social img {
+		 -webkit-transition: all .4s ease-in-out .1s;
+		 -moz-transition:: all .4s ease-in-out .1s;
+		 -o-transition: all .4s ease-in-out .1s;
+		  transition:: all .4s ease-in-out .1s;
+		opacity:1;
+	}
+	
+	.social a:hover img {
+		opacity:.5;
+	}
+		
+	.social a:hover:after
+	{
+		content: attr(title);
+		vertical-align:text-top;
+		font-variant:small-caps;
+		font-weight:bold;
+	}
+
 }
 
 /* ========================================>WEBKIT only */
