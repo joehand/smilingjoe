@@ -10,6 +10,8 @@ I love baking chocolate chip cookies. For years I have worked to make my cookies
 
 Making cookies involves combining certain ingredients in a certain manner and then acting on that mixture by putting them in the oven. I really like brown sugar and chocolate chips. I also like pizza. If I decided to make cookies replacing flour with pizza and the butter and eggs with more sugar and chocolate, I will end up with a mess in my kitchen and no cookies. I can also create the perfect combination of the necessary ingredients then put them in the microwave to bake. Once again, no cookies and messy kitchen. Perfecting cookies requires perfecting the two essential parts: right ingredients and right baking. 
 
+![Cookies]({{ site.imgpath }}/cookies_two.jpg "Cookies (Credit:Joe Hand)")
+
 Sadly humans have not always known how to make cookies. We learned, we experimented, and even still some people like one type of cookie over another or less sugar and more chocolate. With happiness we each have our own brand of happiness. But just like you cannot make cookies from pizza, you cannot make happiness from anger.
 
 We all have a common cupboard from which we pull our ingredients for happiness. Pursuing happiness entails learning which ingredients suit you and acting on those ingredients correctly. ___Right mind and right action.___
