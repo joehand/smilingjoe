@@ -3,6 +3,7 @@ layout: main
 ---
 
 <div class="content post">
+{% include social.html %}
 
 <header class="main-head">
 <h2 class="remove-bottom"><a href="{{ site.blog_url }}">{{ site.name }}</a></h2>
@@ -21,7 +22,9 @@ layout: main
 	</header>
 	
 	<article>	 
-    {{ content }}	
+    {{ content }}
+	
+	{% include share.html %}
 	</article>
 	
 	<footer class="comments">

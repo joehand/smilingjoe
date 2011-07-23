@@ -2,9 +2,11 @@
 layout: main
 title: "Find Your Smile, Change The World"
 
-meta_description: Find Your Smile, Change The World. By finding your true smile, a warm heart, and a clam mind we can change the world. Working individually to become happy we can encourage our family and friends along the same journey. Take initiative and start a revolution within yourself.
+meta_description: By finding your true smile, a warm heart, and a clam mind we can change the world. Take initiative and start a revolution.
 ---
 
+<div class="page-content">
+	
 <header class="main-head">
 	<ul class="tabs">
 	  <!-- Give href an ID value of corresponding "tabs-content" <li>'s -->
@@ -16,10 +18,11 @@ meta_description: Find Your Smile, Change The World. By finding your true smile,
 <h3 class="add-top half-bottom inset-text">Find Your Smile, Change The World</h3>
 </header>
 
-<div class="content">
+{% include social.html %}
 	
 	<!-- Standard <ul> with class of "tabs-content" -->
 	<section class="tabs-content">
+		
 	  <!-- Give ID that matches HREF of above anchors -->
 	
 	  <article id="aboutTab">{% include about.html %}</article>
@@ -39,9 +42,8 @@ meta_description: Find Your Smile, Change The World. By finding your true smile,
 	{% endfor %} <!-- -->
 	
 	</article>
-	
 	</section> <!-- end of #tabs-content -->
 	
 	
-</div> <!-- end of #content -->
+</div> <!-- end of #page-content -->
 

@@ -1,0 +1,31 @@
+---
+layout: main
+title: "Page Not Found :("
+
+---
+
+<div class="content">
+     <article>
+	  <h1>Not found <span frown>:(</span></h1>
+		<h3><a href="{{ site.blog_url }}">Want to go home?</a></h3>
+	   <div>
+	       <p>Sorry, but the page you were trying to view does not exist.</p>
+	       <p>It looks like this was the result of either:</p>
+	       <ul>
+		   <li>a mistyped address</li>
+		   <li>an out-of-date link</li>
+	       </ul>
+		<h2>Post Archive</h2>
+		<p>Here is a list of all my posts, you were probably looking for one of them.</p>
+	   </div>
+	
+		{% include post_nav.html %}
+	    
+	    <script>
+	    var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
+		GOOG_FIXURL_SITE = location.host;
+	    </script>
+	    <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+     </article>
+
+</div> <!-- end of #page-content -->
