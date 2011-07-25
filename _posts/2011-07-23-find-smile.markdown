@@ -2,8 +2,8 @@
 layout: post 
 title: Finding Your Smile
 
-meta_description: 
-description: 
+meta_description: Find your smile just like you find your voice. Start by smiling a lot.
+description: Find your smile just like you find your voice. Start by smiling a lot.
 ---
 
 ###Me and Writing

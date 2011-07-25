@@ -1,9 +1,9 @@
 --- 
 layout: post 
-title: Cookies and Learning Happiness
+title: Cookies and Happiness
 
-meta_description: 
-description: 
+meta_description: Baking cookies and finding happiness are mostly the exact same thing.
+description: Baking cookies and finding happiness are mostly the exact same thing.
 ---
 
 I love baking chocolate chip cookies. For years I have worked to make my cookies better: slightly varying the amount of one ingredient or another, changing the baking time or temperature. Sometimes I fail terribly but most lead me closer to the ideal form of the chocolate chip cookie I am searching for. 
